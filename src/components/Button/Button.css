@@ -1,0 +1,31 @@
+.ads-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.625rem;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.ads-button:focus-visible {
+  outline: 3px solid #9bb5ff;
+  outline-offset: 2px;
+}
+
+.ads-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.ads-button--primary { background: #2458d3; color: #fff; }
+.ads-button--primary:not(:disabled):hover { background: #1847b4; }
+.ads-button--secondary { background: #fff; border-color: #cbd5e1; color: #172033; }
+.ads-button--secondary:not(:disabled):hover { background: #f3f6fb; }
+.ads-button--small { min-height: 2rem; padding: 0.375rem 0.75rem; font-size: 0.8125rem; }
+.ads-button--medium { min-height: 2.5rem; padding: 0.625rem 1rem; font-size: 0.875rem; }
+.ads-button--large { min-height: 3rem; padding: 0.75rem 1.25rem; font-size: 1rem; }
