@@ -1,0 +1,94 @@
+.color-docs section { margin-block: 2.5rem; }
+.color-docs code { overflow-wrap: anywhere; }
+.color-docs details { margin-block: 1.5rem; }
+.color-docs summary { cursor: pointer; font-weight: 600; }
+
+.color-docs .color-docs__swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.color-docs .color-docs__swatches > li {
+  display: grid;
+  align-content: start;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0.625rem;
+  border: 1px solid #c7cdd8;
+  border-radius: 0.5rem;
+}
+
+.color-docs__checker {
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 4rem;
+  height: 2.25rem;
+  vertical-align: middle;
+  border: 1px solid #969fae;
+  border-radius: 0.25rem;
+  background: repeating-conic-gradient(#fff 0% 25%, #c9d0db 0% 50%) 0 0 / 12px 12px;
+}
+
+.color-docs__swatches .color-docs__checker {
+  width: 100%;
+  height: 3.25rem;
+}
+
+.color-docs__sample { display: block; height: 100%; }
+.color-docs__step { font-size: 0.75rem; }
+.color-docs__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #c7cdd8;
+  border-radius: 0.5rem;
+}
+
+.color-docs__controls label { display: grid; gap: 0.25rem; font-weight: 600; }
+.color-docs__controls select { font: inherit; padding: 0.25rem; }
+
+.color-docs__example {
+  display: grid;
+  justify-items: start;
+  gap: 0.5rem;
+  margin-block: 1rem;
+  padding: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+
+.color-docs__preview {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3rem;
+  min-height: 2rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+.color-docs__outline {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid;
+  border-radius: 0.125rem;
+}
+
+.color-docs__surface { border: 1px solid #969fae; }
+
+.color-docs__table-scroll {
+  overflow-x: auto;
+  margin-block-end: 1rem;
+}
+
+.color-docs__table-scroll table { width: 100%; }
+.color-docs__table-scroll th { text-align: left; }
+.color-docs__table-scroll td { vertical-align: middle; }

@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "tokens:build": "node scripts/build-color-tokens.mjs",
+    "tokens:check": "node scripts/build-color-tokens.mjs --check",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
@@ -21,6 +23,7 @@
     "@storybook/addon-docs": "^10.6.7",
     "@storybook/addon-vitest": "^10.6.7",
     "@storybook/react-vite": "^10.6.7",
+    "@tailwindcss/vite": "^4.3.5",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
@@ -30,6 +33,7 @@
     "oxlint": "^1.90.0",
     "playwright": "latest",
     "storybook": "^10.6.7",
+    "tailwindcss": "^4.3.5",
     "typescript": "~7.0.2",
     "vite": "^8.3.6",
     "vitest": "latest"
