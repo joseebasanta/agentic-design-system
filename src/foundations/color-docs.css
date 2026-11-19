@@ -58,7 +58,8 @@
   gap: 0.5rem;
   margin-block: 1rem;
   padding: 1rem;
-  border: 1px solid;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 0.5rem;
 }
 

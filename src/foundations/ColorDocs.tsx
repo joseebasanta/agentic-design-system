@@ -230,13 +230,9 @@ export function SemanticInventory() {
           </label>
         ))}
       </fieldset>
-      <div className="color-docs__example" style={{
-        backgroundColor: cssVar(semanticToken('bg/white-0')),
-        color: cssVar(semanticToken('text/strong-950')),
-        borderColor: cssVar(semanticToken('stroke/sub-300')),
-      }}>
+      <div className="color-docs__example bg-ads-bg-white-0 text-ads-text-strong-950 border-ads-stroke-sub-300">
         <strong>Surface and brand preview</strong>
-        <span style={{ color: cssVar(semanticToken('text/sub-600')) }}>Supporting text on the main surface</span>
+        <span className="text-ads-text-sub-600">Supporting text on the main surface</span>
         {brandPasses
           ? <span className="color-docs__preview" style={{ backgroundColor: cssVar(brand), color: cssVar(brandForeground) }}>Brand label</span>
           : <span><Swatch token={brand} /> White label on primary is below AA in this mode.</span>}

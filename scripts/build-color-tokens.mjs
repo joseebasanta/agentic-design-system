@@ -116,6 +116,14 @@ for (const [key, collection] of axes) {
 const catalog = JSON.stringify(provenance, null, 2)
 const generated = new Map([
   ['colors.css', rules.join('\n\n') + '\n'],
+  ['colors.tailwind.css', [
+    `/* ${header} */`,
+    '@theme inline {',
+    ...list.filter((token) => token.layer === 'semantic').map((token) =>
+      `  --color-ads-${token.css.slice('--ads-color-'.length)}: var(${token.css});`),
+    '}',
+    '',
+  ].join('\n')],
   ['colors.generated.ts', [
     `// ${header}`,
     "import type { ColorProvenance, ColorToken } from './color-types'",
