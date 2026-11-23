@@ -13,7 +13,7 @@ Storybook opens at [http://localhost:6006](http://localhost:6006). The example B
 
 ## Color foundations
 
-Figma is the design authority. See the [Color Palette frame](https://www.figma.com/design/rNDsY8yLQ2w1aKlmi3frij/Design.md?node-id=107-1964) and [Token System frame](https://www.figma.com/design/rNDsY8yLQ2w1aKlmi3frij/Design.md?node-id=107-2523). Storybook documents both under **Foundations → Colors** and includes the source discrepancies and contrast results on the Semantic page.
+Storybook documents all 256 Figma color variables under **Foundations → Colors**. The Semantic page includes mode-by-mode values and alias chains, color pairings used in Figma, and contrast checks across all 16 theme combinations. See the [Color Palette frame](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Align-UI-%E2%9C%A6-Design-System--1.1---Copy-?node-id=2623-2287) and [Token System frame](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Align-UI-%E2%9C%A6-Design-System--1.1---Copy-?node-id=2645-344).
 
 Use semantic custom properties in components, such as `color: var(--ads-color-text-strong-950)` and `background-color: var(--ads-color-bg-white-0)`. The app and Storybook load `src/tokens/colors.css` through `src/index.css`. JavaScript consumers can import `colorTokens` and `resolveColor` from `src/tokens/colors.ts`.
 

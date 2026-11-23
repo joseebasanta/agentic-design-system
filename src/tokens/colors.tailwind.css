@@ -12,6 +12,7 @@
   --color-ads-icon-sub-600: var(--ads-color-icon-sub-600);
   --color-ads-icon-white-0: var(--ads-color-icon-white-0);
   --color-ads-overlay-overlay-gray: var(--ads-color-overlay-overlay-gray);
+  --color-ads-overlay-overlay-slate: var(--ads-color-overlay-overlay-slate);
   --color-ads-primary-alpha-10: var(--ads-color-primary-alpha-10);
   --color-ads-primary-alpha-16: var(--ads-color-primary-alpha-16);
   --color-ads-primary-base: var(--ads-color-primary-base);
@@ -22,6 +23,8 @@
   --color-ads-social-github: var(--ads-color-social-github);
   --color-ads-social-notion: var(--ads-color-social-notion);
   --color-ads-social-twitter: var(--ads-color-social-twitter);
+  --color-ads-social-tidal: var(--ads-color-social-tidal);
+  --color-ads-social-zendesk: var(--ads-color-social-zendesk);
   --color-ads-state-away-base: var(--ads-color-state-away-base);
   --color-ads-state-away-dark: var(--ads-color-state-away-dark);
   --color-ads-state-away-light: var(--ads-color-state-away-light);
@@ -73,4 +76,10 @@
   --color-ads-text-strong-950: var(--ads-color-text-strong-950);
   --color-ads-text-sub-600: var(--ads-color-text-sub-600);
   --color-ads-text-white-0: var(--ads-color-text-white-0);
+  --color-ads-illustration-strong-400: var(--ads-color-illustration-strong-400);
+  --color-ads-illustration-sub-300: var(--ads-color-illustration-sub-300);
+  --color-ads-illustration-soft-200: var(--ads-color-illustration-soft-200);
+  --color-ads-illustration-weak-100: var(--ads-color-illustration-weak-100);
+  --color-ads-illustration-white-0: var(--ads-color-illustration-white-0);
+  --color-ads-primary-alpha-24: var(--ads-color-primary-alpha-24);
 }

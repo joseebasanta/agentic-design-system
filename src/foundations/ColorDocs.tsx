@@ -13,7 +13,7 @@ const byFamily = groupTokens([...palette].sort((a, b) => palettePosition(a) - pa
   (token) => token.name.slice(0, token.name.lastIndexOf('/')))
 const category = (token: ColorToken) => token.collection === 'brand' ? 'primary' : token.name.split('/')[0]
 const byRole = groupTokens(semantics, category)
-const roles = ['primary', 'static', 'bg', 'text', 'stroke', 'icon', 'state', 'overlay', 'social']
+const roles = ['primary', 'static', 'bg', 'text', 'stroke', 'icon', 'state', 'illustration', 'overlay', 'social']
 const allContrast = allModeSelections.flatMap(contrastResults)
 
 function groupTokens(tokens: readonly ColorToken[], groupName: (token: ColorToken) => string) {
@@ -50,7 +50,7 @@ function Swatch({ token }: { token: ColorToken }) {
 export function PaletteInventory() {
   return (
     <div className="color-docs">
-      <p>{palette.length} palette colors in the sRGB color space. The hex labels round channels to eight bits. The CSS uses the exact Figma channels and opacity.</p>
+      <p>{palette.length} sRGB colors in 06-Foundations, which has one mode. The hex labels round channels to eight bits. The CSS uses the exact Figma channels and opacity.</p>
       <p><a href={figmaLink(colorProvenance.frames.primitive)}>Palette frame in Figma</a></p>
       {Object.entries(byFamily).map(([family, tokens]) => (
         <section key={family}>
@@ -79,7 +79,8 @@ const guidance: Record<string, string> = {
   text: 'Use for text hierarchy, disabled text, and text on inverse surfaces. Check the contrast of the pair.',
   stroke: 'Use for dividers and outlines. Check contrast when a border identifies a control.',
   icon: 'Use for icon hierarchy and inverse or disabled icons. Check contrast for meaningful icons.',
-  state: 'Use each state family to convey its named status. The contrast examples evaluate the dark variant over the lighter variant.',
+  state: 'Use the named status family. The Figma badges use the base color over the lighter background, while lighter alerts use strong text. Check the contrast before choosing a label color.',
+  illustration: 'Use for neutral illustration fills. These variables reference Gray directly in both appearance modes.',
   overlay: 'Use for scrims over content. The resulting color depends on the surface behind it.',
   social: 'Use the color for the named brand mark.',
 }
@@ -88,7 +89,7 @@ function intendedUse(token: ColorToken) {
   if (token.layer === 'reference') return 'Neutral scale step for the selected palette.'
   const [role, variant, shade] = token.name.split('/')
   if (role === 'state') return `${shade} color for the ${variant} status.`
-  if (role === 'overlay') return 'Gray scrim over content.'
+  if (role === 'overlay') return `${variant.replace('overlay-', '')} scrim over content.`
   if (role === 'social') return `Brand mark for ${variant}.`
   if (role === 'static') return `Fixed ${variant.replace('static-', '')} across Light and Dark.`
   if (token.collection === 'brand') {
@@ -96,13 +97,13 @@ function intendedUse(token: ColorToken) {
     return `${token.name.replace('primary-', '')} brand accent.`
   }
   const purpose = variant.replace(/-\d+$/, '')
-  const subject = ({ bg: 'surface', text: 'text', stroke: 'border', icon: 'icon' })[role as 'bg' | 'text' | 'stroke' | 'icon']
+  const subject = ({ bg: 'surface', text: 'text', stroke: 'border', icon: 'icon', illustration: 'illustration fill' })[role as 'bg' | 'text' | 'stroke' | 'icon' | 'illustration']
   return purpose === 'white' && role !== 'bg' ? `Inverse ${subject}.` : `${purpose} ${subject}.`
 }
 
 type ContrastResult = ReturnType<typeof contrastResults>[number]
 
-function Preview({ token, contrast }: { token: ColorToken; contrast: readonly ContrastResult[] }) {
+function Preview({ token }: { token: ColorToken }) {
   const role = category(token)
   const color = cssVar(token)
   const white = cssVar(semanticToken('bg/white-0'))
@@ -120,21 +121,13 @@ function Preview({ token, contrast }: { token: ColorToken; contrast: readonly Co
       </span>
     )
   }
-  if (role === 'text') {
-    const pair = contrast.find((result) => result.foreground === token.name)
-    if (!pair || !pair.passes) return <Swatch token={token} />
-    return <span className="color-docs__preview" style={{ backgroundColor, color }}>Text sample</span>
-  }
-  if (role === 'bg') {
+  if (role === 'bg' || role === 'illustration') {
     return <span className="color-docs__preview color-docs__surface" style={{ backgroundColor: color }} aria-hidden="true" />
   }
-  if (role === 'state') {
-    const pair = contrast.find((result) => result.foreground === token.name && result.passes)
-    if (pair) return (
-      <span className="color-docs__preview" style={{ backgroundColor: white }}>
-        <span className="color-docs__preview" style={{ backgroundColor: cssVar(semanticToken(pair.background)), color }}>
-          {token.name.split('/')[1]}
-        </span>
+  if (role === 'overlay') {
+    return (
+      <span className="color-docs__preview color-docs__surface" style={{ backgroundColor: white }} aria-hidden="true">
+        <span className="color-docs__outline" style={{ backgroundColor: color, border: 0 }} />
       </span>
     )
   }
@@ -145,35 +138,61 @@ function formatChain(token: ColorToken) {
   return token.layer === 'reference' ? `02-Neutral / ${token.name}` : token.name
 }
 
-function SemanticRows({ tokens, modes, contrast }: {
+function SemanticRows({ tokens, modes }: {
   tokens: readonly ColorToken[]
   modes: ColorModes
-  contrast: readonly ContrastResult[]
 }) {
+  const collectionKey = tokens[0].collection
+  const collection = colorProvenance.collections[collectionKey]
+
   return (
     <div className="color-docs__table-scroll">
       <table>
-        <thead><tr><th scope="col">Token</th><th scope="col">Use (inferred)</th><th scope="col">Reference chain</th><th scope="col">Resolved value</th><th scope="col">Preview</th></tr></thead>
+        <thead><tr>
+          <th scope="col">Token</th><th scope="col">Use</th>
+          {collection.modes.map((mode) => <th key={mode.id} scope="col">{mode.name}</th>)}
+          <th scope="col">Selected preview</th>
+        </tr></thead>
         <tbody>
-          {tokens.map((token) => {
-            const { value, chain } = resolveColor(token, modes)
-            return (
-              <tr key={token.key}>
-                <th scope="row">
-                  <code>{token.name}</code><br />
-                  <small>{provenanceLink(token)}</small>
-                  {token.description && <div>Figma description: {token.description}</div>}
-                </th>
-                <td>{intendedUse(token)}</td>
-                <td>{chain.length ? chain.map(formatChain).join(' → ') : 'Direct Figma value'}</td>
-                <td>{formatColor(value)}</td>
-                <td><Preview token={token} contrast={contrast} /></td>
-              </tr>
-            )
-          })}
+          {tokens.map((token) => (
+            <tr key={token.key}>
+              <th scope="row">
+                <code>{token.name}</code><br />
+                <small>{provenanceLink(token)}</small>
+                {token.description && <div>{token.description}</div>}
+              </th>
+              <td>{intendedUse(token)}</td>
+              {collection.modes.map((mode) => {
+                const { value, chain } = resolveColor(token, { ...modes, [collectionKey]: mode.id })
+                return (
+                  <td key={mode.id}>
+                    <strong>{formatColor(value)}</strong>
+                    <small className="color-docs__chain">{chain.length ? chain.map(formatChain).join(' → ') : 'Direct value'}</small>
+                  </td>
+                )
+              })}
+              <td><Preview token={token} /></td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>
+  )
+}
+
+function PairPreview({ pair }: { pair: ContrastResult }) {
+  const color = cssVar(semanticToken(pair.foreground))
+  const backgroundColor = cssVar(semanticToken(pair.background))
+  const isIcon = pair.foreground.startsWith('icon/')
+  const isStroke = pair.foreground.startsWith('stroke/')
+  return (
+    <span className="color-docs__pair-surface bg-ads-bg-white-0">
+      <span className="color-docs__preview" style={{ backgroundColor, color }} aria-hidden="true">
+        {isStroke ? <span className="color-docs__outline" /> : isIcon || !pair.passes
+          ? <span className="color-docs__dot" />
+          : <span style={pair.minimum === 3 ? { fontSize: '24px' } : undefined}>Aa</span>}
+      </span>
+    </span>
   )
 }
 
@@ -182,16 +201,17 @@ function ContrastAudit({ current }: { current: readonly ContrastResult[] }) {
   return (
     <section className="color-docs__audit">
       <h2>Contrast audit</h2>
-      <p>{failures.length} of {allContrast.length} checks fall below WCAG AA across {allModeSelections.length} combinations. The table updates with the selected modes and includes all checked pairs.</p>
+      <p>{failures.length} of {allContrast.length} checks fall below WCAG AA across {allModeSelections.length} combinations. The table shows the selected combination. Rows with a Figma link use a verified binding. The other rows evaluate candidate pairings.</p>
       <p>Normal text uses 4.5:1. The large heading sample assumes at least 24 CSS px and uses 3:1. Icons and borders use 3:1 when they convey information or identify controls. For transparency, each background is composited over <code>bg/white-0</code>, then the foreground over that result. Disabled controls and palette swatches are outside this audit.</p>
       <p><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">WCAG text contrast</a> · <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">WCAG non-text contrast</a></p>
       <div className="color-docs__table-scroll">
         <table>
-          <thead><tr><th scope="col">Example</th><th scope="col">Foreground / background</th><th scope="col">Ratio</th><th scope="col">AA target</th><th scope="col">Result</th></tr></thead>
+          <thead><tr><th scope="col">Example</th><th scope="col">Foreground / background</th><th scope="col">Sample</th><th scope="col">Ratio</th><th scope="col">AA target</th><th scope="col">Result</th></tr></thead>
           <tbody>{current.map((result) => (
             <tr key={result.label}>
-              <th scope="row">{result.label}</th>
+              <th scope="row">{result.label}{result.source && <small className="color-docs__chain"><a href={figmaLink(result.source)}>Figma example</a></small>}</th>
               <td><code>{result.foreground}</code> / <code>{result.background}</code></td>
+              <td><PairPreview pair={result} /></td>
               <td>{result.ratio.toFixed(2)}:1</td>
               <td>{result.minimum}:1</td>
               <td>{result.passes ? 'Pass' : 'Below AA'}</td>
@@ -209,50 +229,46 @@ export function SemanticInventory() {
     collection.attribute,
     collection.modes.find((mode) => mode.id === (modes[key] ?? collection.default))?.key,
   ]))
-  const brand = semanticToken('primary-base')
-  const brandForeground = semanticToken('static/static-white')
   const contrast = contrastResults(modes)
-  const brandPasses = contrast.find((pair) => pair.foreground === brandForeground.name)?.passes
 
   return (
     <div className="color-docs" data-color-scope="" {...attributes}>
-      <p>{semantics.length} semantic colors. Select Figma modes to update both the values and the rendered previews. Mode controls apply to this documentation preview.</p>
-      <p><a href={figmaLink(colorProvenance.frames.semantic)}>Token System frame in Figma</a></p>
+      <p>{semantics.length} semantic colors. Pick a neutral palette to resolve the Light and Dark columns. The swatches and contrast audit follow the selected appearance, brand, and neutral palette.</p>
       <fieldset className="color-docs__controls">
         <legend>Figma modes</legend>
         {modeAxes.map(([key, collection]) => (
           <label key={key}>
             {collection.label}
-            <select value={modes[key] ?? collection.default} onChange={(event) =>
-              setModes({ ...modes, [key]: event.target.value })}>
+            <select value={modes[key] ?? collection.default} onChange={(event) => {
+              const mode = event.target.value
+              setModes((previous) => ({ ...previous, [key]: mode }))
+            }}>
               {collection.modes.map((mode) => <option key={mode.id} value={mode.id}>{mode.name}</option>)}
             </select>
           </label>
         ))}
       </fieldset>
       <div className="color-docs__example bg-ads-bg-white-0 text-ads-text-strong-950 border-ads-stroke-sub-300">
-        <strong>Surface and brand preview</strong>
-        <span className="text-ads-text-sub-600">Supporting text on the main surface</span>
-        {brandPasses
-          ? <span className="color-docs__preview" style={{ backgroundColor: cssVar(brand), color: cssVar(brandForeground) }}>Brand label</span>
-          : <span><Swatch token={brand} /> White label on primary is below AA in this mode.</span>}
+        <strong>Main surface</strong>
+        <span className="text-ads-text-sub-600">Supporting text</span>
+        <span className="color-docs__brand bg-ads-primary-base" aria-hidden="true" />
       </div>
+      <ContrastAudit current={contrast} />
       {roles.filter((role) => byRole[role]?.length).map((role) => {
         const source = colorProvenance.groupDescriptions[role]
         return (
           <section key={role}>
             <h2>{({ bg: 'Background', state: 'State' } as Record<string, string>)[role] ?? role[0].toUpperCase() + role.slice(1)}</h2>
             {source && <p>{source.description} <a href={figmaLink(source.node)}>Figma description</a></p>}
-            <p><strong>Usage guidance (inferred)</strong> {guidance[role]}</p>
-            <SemanticRows tokens={byRole[role] ?? []} modes={modes} contrast={contrast} />
+            <p>{guidance[role]}</p>
+            <SemanticRows tokens={byRole[role]} modes={modes} />
           </section>
         )
       })}
       <details>
         <summary>Neutral alias layer ({intermediate.length} variables)</summary>
-        <SemanticRows tokens={intermediate} modes={modes} contrast={contrast} />
+        <SemanticRows tokens={intermediate} modes={modes} />
       </details>
-      <ContrastAudit current={contrast} />
       <details>
         <summary>Figma labels and swatch discrepancies</summary>
         <ul>

@@ -84,6 +84,30 @@
 
 .color-docs__surface { border: 1px solid #969fae; }
 
+.color-docs__chain {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.color-docs__pair-surface {
+  display: inline-block;
+  padding: 0.25rem;
+  border: 1px solid #969fae;
+  border-radius: 0.25rem;
+}
+
+.color-docs__brand,
+.color-docs__dot {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.color-docs__dot { background-color: currentColor; }
+
 .color-docs__table-scroll {
   overflow-x: auto;
   margin-block-end: 1rem;

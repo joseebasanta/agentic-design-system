@@ -1,17 +1,17 @@
 {
   "$extensions": {
     "design.agentic.figma": {
-      "fileKey": "rNDsY8yLQ2w1aKlmi3frij",
-      "fileName": "Design.md",
+      "fileKey": "jc3iyvFl45ESgrCMzprckl",
+      "fileName": "Align-UI-%E2%9C%A6-Design-System--1.1---Copy-",
       "frames": {
-        "primitive": "107:1964",
-        "semantic": "107:2523"
+        "primitive": "2623:2287",
+        "semantic": "2645:344"
       },
       "colorProfile": "srgb",
       "collections": {
         "appearance": {
           "name": "01-Tokens",
-          "id": "VariableCollectionId:a5dfbead62193b44131900701edd61bcd1c70286/164621:173",
+          "id": "VariableCollectionId:109:2903",
           "default": "109:0",
           "attribute": "data-color-mode",
           "label": "Appearance",
@@ -30,7 +30,7 @@
         },
         "foundations": {
           "name": "06-Foundations",
-          "id": "VariableCollectionId:7fb217f42defba303676d41aad4c23cb479ddd20/164606:661",
+          "id": "VariableCollectionId:2:3",
           "default": "2:0",
           "modes": [
             {
@@ -42,7 +42,7 @@
         },
         "brand": {
           "name": "03-Theme",
-          "id": "VariableCollectionId:aa9438c275b499833a014d96cbac619f26c0c01d/247:91",
+          "id": "VariableCollectionId:113:54",
           "default": "113:0",
           "attribute": "data-color-brand",
           "label": "Brand",
@@ -71,7 +71,7 @@
         },
         "neutral": {
           "name": "02-Neutral",
-          "id": "VariableCollectionId:10b1aede0b004c15c5ccfbdba7a216461b8b47ca/164611:219",
+          "id": "VariableCollectionId:164602:29099",
           "default": "164602:0",
           "attribute": "data-color-neutral",
           "label": "Neutral palette",
@@ -91,100 +91,100 @@
       },
       "groupDescriptions": {
         "primary": {
-          "description": "Dominant colors with distinct shades decorating your design using the naming system of Primary Color Tokens.",
-          "node": "107:2534"
+          "node": "2645:355",
+          "description": "Dominant colors with distinct shades decorating your design using the naming system of Primary Color Tokens."
         },
         "static": {
-          "description": "The static colors have the same color tones for both light and dark modes, and they remain unchanged.",
-          "node": "107:2555"
+          "node": "2645:1187",
+          "description": "The static colors have the same color tones for both light and dark modes, and they remain unchanged."
         },
         "bg": {
-          "description": "Harmonious background colors using the intuitive naming system of Background Color Tokens.",
-          "node": "107:2598"
+          "node": "2652:5032",
+          "description": "Harmonious background colors using the intuitive naming system of Background Color Tokens."
         },
         "text": {
-          "description": "Cohesive text colors through the user-friendly naming structure of Text Color Tokens.",
-          "node": "107:2697"
+          "node": "2655:5285",
+          "description": "Cohesive text colors through the user-friendly naming structure of Text Color Tokens."
         },
         "stroke": {
-          "description": "Unified stroke colors with the intuitive naming system of Stroke Color Tokens.",
-          "node": "107:2782"
+          "node": "2655:5454",
+          "description": "Unified stroke colors with the intuitive naming system of Stroke Color Tokens."
         },
         "icon": {
-          "description": "Consistent icon colors using the organized naming approach of Icon Color Tokens.",
-          "node": "107:2853"
+          "node": "2655:5558",
+          "description": "Consistent icon colors using the organized naming approach of Icon Color Tokens."
         },
         "state": {
-          "description": "Color variations for different states using the structured naming system of State Color Tokens.",
-          "node": "107:2939"
+          "node": "2655:5662",
+          "description": "Color variations for different states using the structured naming system of State Color Tokens."
         }
       },
       "discrepancies": [
         {
-          "node": "107:2843",
+          "node": "2655:5526",
+          "context": "Dark Mode",
           "label": "neutral-700",
           "bound": "neutral/gray/700",
-          "actual": "800",
           "token": "stroke/soft-200",
-          "context": "Dark Mode"
+          "actual": "800"
         },
         {
-          "node": "107:3002",
+          "node": "2663:2137",
+          "context": "Dark Mode",
           "label": "neutral-alpha-24",
           "bound": "alpha/slate/alpha-24",
-          "actual": "alpha/gray/alpha-24",
           "token": "state/faded/light",
-          "context": "Dark Mode"
+          "actual": "alpha/gray/alpha-24"
         },
         {
-          "node": "107:3006",
+          "node": "2663:2141",
+          "context": "Dark Mode",
           "label": "neutral-alpha-16",
           "bound": "alpha/slate/alpha-16",
-          "actual": "alpha/gray/alpha-16",
           "token": "state/faded/lighter",
-          "context": "Dark Mode"
+          "actual": "alpha/gray/alpha-16"
         },
         {
-          "node": "107:3278",
+          "node": "2665:2654",
+          "context": "Dark Mode",
           "label": "green-alpha-24",
           "bound": "alpha/green/alpha-24",
-          "actual": "alpha/green/alpha-16",
           "token": "state/success/light",
-          "context": "Dark Mode"
+          "actual": "alpha/green/alpha-16"
         },
         {
-          "node": "107:3282",
+          "node": "2665:2658",
+          "context": "Dark Mode",
           "label": "green-alpha-16",
           "bound": "alpha/green/alpha-16",
-          "actual": "alpha/green/alpha-10",
           "token": "state/success/lighter",
-          "context": "Dark Mode"
+          "actual": "alpha/green/alpha-10"
         },
         {
-          "node": "107:3412",
+          "node": "2665:2824",
+          "context": "Dark Mode",
           "label": "purple-500",
           "bound": "purple/600",
-          "actual": "purple/500",
           "token": "state/feature/base",
-          "context": "Dark Mode"
+          "actual": "purple/500"
         },
         {
-          "node": "107:2403",
+          "node": "2637:4341",
+          "context": "Palette",
           "label": "neutral-alpha-24",
-          "bound": "alpha/slate/alpha-24",
-          "context": "Palette"
+          "bound": "alpha/slate/alpha-24"
         },
         {
-          "node": "107:2406",
+          "node": "2637:4344",
+          "context": "Palette",
           "label": "neutral-alpha-16",
-          "bound": "alpha/slate/alpha-16",
-          "context": "Palette"
+          "bound": "alpha/slate/alpha-16"
         },
         {
-          "node": "107:2409",
+          "node": "2637:4347",
+          "context": "Palette",
           "label": "neutral-alpha-10",
-          "bound": "alpha/slate/alpha-10",
-          "context": "Palette"
+          "bound": "alpha/slate/alpha-10"
         }
       ]
     }
@@ -205,10 +205,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:d653648dc571340ff04837075ace429b03aa285b/167874:9",
+              "id": "VariableID:385:4557",
               "name": "alpha/black/alpha-10",
               "collection": "foundations",
-              "node": "107:2519"
+              "node": "2644:253"
             }
           }
         },
@@ -224,10 +224,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:12d3db6dcdb6d90137af4b8ee735d16f055364b2/167874:10",
+              "id": "VariableID:385:4556",
               "name": "alpha/black/alpha-16",
               "collection": "foundations",
-              "node": "107:2516"
+              "node": "2644:250"
             }
           }
         },
@@ -243,10 +243,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:3c7592638b24a221b536aa66d782b3d1ea16f353/167874:11",
+              "id": "VariableID:385:4555",
               "name": "alpha/black/alpha-24",
               "collection": "foundations",
-              "node": "107:2513"
+              "node": "2644:247"
             }
           }
         }
@@ -264,10 +264,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:65f85a73ad70eb29645f32341755adce1719dfc3/164606:535",
+              "id": "VariableID:113:337",
               "name": "alpha/blue/alpha-10",
               "collection": "foundations",
-              "node": "107:2419"
+              "node": "2644:142"
             }
           }
         },
@@ -283,10 +283,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:91eeab86e0da95508c7b9e0dc6f0c1aec58fa0e5/164606:468",
+              "id": "VariableID:116:343",
               "name": "alpha/blue/alpha-16",
               "collection": "foundations",
-              "node": "107:2416"
+              "node": "2644:139"
             }
           }
         },
@@ -302,10 +302,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:333a8af40ae68663f234019dd228f6c2ce6a2c18/164606:540",
+              "id": "VariableID:116:368",
               "name": "alpha/blue/alpha-24",
               "collection": "foundations",
-              "node": "107:2413"
+              "node": "2644:136"
             }
           }
         }
@@ -323,7 +323,7 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:b253d156ce3ee046bbf8250d8c188ea2c118f979/164606:658",
+              "id": "VariableID:164602:81071",
               "name": "alpha/gray/alpha-16",
               "collection": "foundations"
             }
@@ -341,8 +341,26 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:00e0fa6e9bc8280ba2250583547f951412b6ba1f/164606:434",
+              "id": "VariableID:164602:81070",
               "name": "alpha/gray/alpha-24",
+              "collection": "foundations"
+            }
+          }
+        },
+        "alpha-10": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6411764621734619,
+              0.6411764621734619,
+              0.6411764621734619
+            ],
+            "alpha": 0.10000000149011612
+          },
+          "$extensions": {
+            "design.agentic.figma": {
+              "id": "VariableID:164602:81072",
+              "name": "alpha/gray/alpha-10",
               "collection": "foundations"
             }
           }
@@ -361,10 +379,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:3142e418f6860dcf8aa306a876664fe4971aae71/164606:482",
+              "id": "VariableID:113:330",
               "name": "alpha/green/alpha-10",
               "collection": "foundations",
-              "node": "107:2449"
+              "node": "2644:182"
             }
           }
         },
@@ -380,10 +398,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:4a1b3e2f9d4ae276877536957f6254534644b15f/164606:492",
+              "id": "VariableID:116:342",
               "name": "alpha/green/alpha-16",
               "collection": "foundations",
-              "node": "107:2446"
+              "node": "2644:179"
             }
           }
         },
@@ -399,10 +417,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:92a5beb8a93c36034e70827482fac01ab8867d9b/164606:479",
+              "id": "VariableID:116:371",
               "name": "alpha/green/alpha-24",
               "collection": "foundations",
-              "node": "107:2443"
+              "node": "2644:176"
             }
           }
         }
@@ -420,10 +438,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:d7e54743e6e51355ec822bbb425b428c39791dfb/167874:7",
+              "id": "VariableID:113:324",
               "name": "alpha/orange/alpha-10",
               "collection": "foundations",
-              "node": "107:2429"
+              "node": "2644:161"
             }
           }
         },
@@ -439,10 +457,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f1fb6215e72bcd6344925ce8062fad5a11b841d3/167874:5",
+              "id": "VariableID:116:341",
               "name": "alpha/orange/alpha-16",
               "collection": "foundations",
-              "node": "107:2426"
+              "node": "2644:158"
             }
           }
         },
@@ -458,10 +476,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:d5456173bdc4bfbf2facd475c6913f65619f90f7/167874:2",
+              "id": "VariableID:116:369",
               "name": "alpha/orange/alpha-24",
               "collection": "foundations",
-              "node": "107:2423"
+              "node": "2644:155"
             }
           }
         }
@@ -479,10 +497,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:a9a2de95a04c73ca94fc56e2d3586ee6256e4c39/164606:462",
+              "id": "VariableID:116:357",
               "name": "alpha/pink/alpha-10",
               "collection": "foundations",
-              "node": "107:2489"
+              "node": "2644:223"
             }
           }
         },
@@ -498,10 +516,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:3ecca547cfa25b739e4fe9bdd909edcfe578c53f/164606:495",
+              "id": "VariableID:116:358",
               "name": "alpha/pink/alpha-16",
               "collection": "foundations",
-              "node": "107:2486"
+              "node": "2644:220"
             }
           }
         },
@@ -517,10 +535,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:9c244d0a9821e6b0260e7a070bc7ae53b5e9a087/164606:640",
+              "id": "VariableID:116:375",
               "name": "alpha/pink/alpha-24",
               "collection": "foundations",
-              "node": "107:2483"
+              "node": "2644:217"
             }
           }
         }
@@ -538,10 +556,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:c6ffd990c9da60c54f85052b8c0f3c5f12df2fd1/164606:611",
+              "id": "VariableID:116:363",
               "name": "alpha/purple/alpha-10",
               "collection": "foundations",
-              "node": "107:2479"
+              "node": "2644:213"
             }
           }
         },
@@ -557,10 +575,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:c7cf9a7cd5908e525b39eb9fcf14605b7d23baae/164606:572",
+              "id": "VariableID:116:364",
               "name": "alpha/purple/alpha-16",
               "collection": "foundations",
-              "node": "107:2476"
+              "node": "2644:210"
             }
           }
         },
@@ -576,10 +594,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:a7c64f7f87961b10c3225dfc02234e4d4473d1b4/164606:548",
+              "id": "VariableID:116:373",
               "name": "alpha/purple/alpha-24",
               "collection": "foundations",
-              "node": "107:2473"
+              "node": "2644:207"
             }
           }
         }
@@ -597,10 +615,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:4524c7d342f91023b396516c738d4375a007a791/164606:417",
+              "id": "VariableID:109:3215",
               "name": "alpha/red/alpha-10",
               "collection": "foundations",
-              "node": "107:2439"
+              "node": "2644:171"
             }
           }
         },
@@ -616,10 +634,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:26f487f5dd55508a51d4b3f027ae3534866f8841/164606:626",
+              "id": "VariableID:116:328",
               "name": "alpha/red/alpha-16",
               "collection": "foundations",
-              "node": "107:2436"
+              "node": "2644:168"
             }
           }
         },
@@ -635,10 +653,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:0509520bd150ca5b5b0a81725bcd450352fa07c4/164606:512",
+              "id": "VariableID:116:370",
               "name": "alpha/red/alpha-24",
               "collection": "foundations",
-              "node": "107:2433"
+              "node": "2644:165"
             }
           }
         }
@@ -656,10 +674,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:5deb418501a95f038e08c192f19fa44e85fce888/164606:586",
+              "id": "VariableID:116:361",
               "name": "alpha/sky/alpha-10",
               "collection": "foundations",
-              "node": "107:2469"
+              "node": "2644:202"
             }
           }
         },
@@ -675,10 +693,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:28049016156606b16b197e792317005feb6268ec/164606:627",
+              "id": "VariableID:116:362",
               "name": "alpha/sky/alpha-16",
               "collection": "foundations",
-              "node": "107:2466"
+              "node": "2644:199"
             }
           }
         },
@@ -694,10 +712,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f38433644e9701ba4b5bd4447ad52da23f93f14d/164606:557",
+              "id": "VariableID:116:374",
               "name": "alpha/sky/alpha-24",
               "collection": "foundations",
-              "node": "107:2463"
+              "node": "2644:196"
             }
           }
         }
@@ -715,10 +733,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:87f463c44ba7ab0bcd5ce43549b34d74e07e5649/164606:460",
+              "id": "VariableID:113:1426",
               "name": "alpha/slate/alpha-10",
               "collection": "foundations",
-              "node": "107:2409"
+              "node": "2637:4347"
             }
           }
         },
@@ -734,10 +752,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:a0f4a8e3a770d38993fe9c33195fb6f0a2547227/164606:459",
+              "id": "VariableID:116:344",
               "name": "alpha/slate/alpha-16",
               "collection": "foundations",
-              "node": "107:2406"
+              "node": "2637:4344"
             }
           }
         },
@@ -753,10 +771,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:49159187495664f476f7a02b68f1f61ee292870b/164606:608",
+              "id": "VariableID:116:367",
               "name": "alpha/slate/alpha-24",
               "collection": "foundations",
-              "node": "107:2403"
+              "node": "2637:4341"
             }
           }
         }
@@ -774,10 +792,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:521f876c02c958f11df3bdd0545104b1d4cd7c95/164606:614",
+              "id": "VariableID:116:359",
               "name": "alpha/teal/alpha-10",
               "collection": "foundations",
-              "node": "107:2499"
+              "node": "2644:233"
             }
           }
         },
@@ -793,10 +811,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:448631762b6be3557a14edb354fda3aef982c0d2/164606:635",
+              "id": "VariableID:116:360",
               "name": "alpha/teal/alpha-16",
               "collection": "foundations",
-              "node": "107:2496"
+              "node": "2644:230"
             }
           }
         },
@@ -812,10 +830,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:9f4ba95b29049f8212ae57f18ca3e1d83c4c6be5/164606:527",
+              "id": "VariableID:116:376",
               "name": "alpha/teal/alpha-24",
               "collection": "foundations",
-              "node": "107:2493"
+              "node": "2644:227"
             }
           }
         }
@@ -833,10 +851,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:75b8fe651c8da90318cd63630c028ff4c61af75f/164606:592",
+              "id": "VariableID:190:3822",
               "name": "alpha/white/alpha-10",
               "collection": "foundations",
-              "node": "107:2509"
+              "node": "2644:243"
             }
           }
         },
@@ -852,10 +870,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:9f8f0bd4d247405260aebfa159ff4a21084806da/164606:618",
+              "id": "VariableID:190:3821",
               "name": "alpha/white/alpha-16",
               "collection": "foundations",
-              "node": "107:2506"
+              "node": "2644:240"
             }
           }
         },
@@ -871,10 +889,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:49fb9e66b3267d5c1678bcbeadf089b91740ed81/164606:519",
+              "id": "VariableID:190:3820",
               "name": "alpha/white/alpha-24",
               "collection": "foundations",
-              "node": "107:2503"
+              "node": "2644:237"
             }
           }
         }
@@ -892,10 +910,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:c43b8b53c0236dc473af88022197a6628fb73a83/164606:566",
+              "id": "VariableID:116:365",
               "name": "alpha/yellow/alpha-10",
               "collection": "foundations",
-              "node": "107:2459"
+              "node": "2644:192"
             }
           }
         },
@@ -911,10 +929,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:4cc253297b2328f9e094e467cb5e353081b9c62b/164606:633",
+              "id": "VariableID:116:366",
               "name": "alpha/yellow/alpha-16",
               "collection": "foundations",
-              "node": "107:2456"
+              "node": "2644:189"
             }
           }
         },
@@ -930,10 +948,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:14ddd352e68257f6ea8e9fc52c6494acf7eeab6f/164606:659",
+              "id": "VariableID:116:372",
               "name": "alpha/yellow/alpha-24",
               "collection": "foundations",
-              "node": "107:2453"
+              "node": "2644:186"
             }
           }
         }
@@ -952,10 +970,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:80379358a50b8b574754af2859564f1ab9f67f7b/164606:545",
+            "id": "VariableID:102:1102",
             "name": "blue/50",
             "collection": "foundations",
-            "node": "107:2090"
+            "node": "2629:11464"
           }
         }
       },
@@ -971,10 +989,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:1ef5db2d2f7ed2a0eec374328b32eaf48141d3e1/164606:653",
+            "id": "VariableID:102:1101",
             "name": "blue/100",
             "collection": "foundations",
-            "node": "107:2087"
+            "node": "2629:11461"
           }
         }
       },
@@ -990,10 +1008,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:3cc49255fa4582893481bb5bb4d3674a983258ba/164606:524",
+            "id": "VariableID:102:1100",
             "name": "blue/200",
             "collection": "foundations",
-            "node": "107:2084"
+            "node": "2629:11458"
           }
         }
       },
@@ -1009,10 +1027,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d9f728b8d5f7e608ea92a9b3bc32ea29db09b1cd/164606:639",
+            "id": "VariableID:102:1099",
             "name": "blue/300",
             "collection": "foundations",
-            "node": "107:2081"
+            "node": "2629:11455"
           }
         }
       },
@@ -1028,10 +1046,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:dc540731aa8566dd589d62e441710636db049e8a/164606:610",
+            "id": "VariableID:102:1098",
             "name": "blue/400",
             "collection": "foundations",
-            "node": "107:2078"
+            "node": "2629:11452"
           }
         }
       },
@@ -1047,10 +1065,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:0007dc019e1f0274ba13009306e729fc146f53c1/164606:429",
+            "id": "VariableID:102:1097",
             "name": "blue/500",
             "collection": "foundations",
-            "node": "107:2075"
+            "node": "2629:11449"
           }
         }
       },
@@ -1066,10 +1084,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:3594bfd24b05aff13610344eaa33d0f4ebdfee1d/164606:415",
+            "id": "VariableID:102:1096",
             "name": "blue/600",
             "collection": "foundations",
-            "node": "107:2072"
+            "node": "2629:11446"
           }
         }
       },
@@ -1085,10 +1103,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:6a5b244f1ffb5e90ebc1702d67f0737d510f594b/164606:427",
+            "id": "VariableID:102:1095",
             "name": "blue/700",
             "collection": "foundations",
-            "node": "107:2069"
+            "node": "2629:11443"
           }
         }
       },
@@ -1104,10 +1122,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:3f53ee8ea08e68f0ad0c7f84ecfb29fa93a1028b/164606:496",
+            "id": "VariableID:102:1094",
             "name": "blue/800",
             "collection": "foundations",
-            "node": "107:2066"
+            "node": "2629:11440"
           }
         }
       },
@@ -1123,10 +1141,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:63c318be5482e6e02dd12f4c7bf9eba540879408/164606:521",
+            "id": "VariableID:102:1093",
             "name": "blue/900",
             "collection": "foundations",
-            "node": "107:2063"
+            "node": "2629:11437"
           }
         }
       },
@@ -1142,10 +1160,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:fba8bbb9473e543f32f852cad7abff3e943d88cc/164606:447",
+            "id": "VariableID:102:1092",
             "name": "blue/950",
             "collection": "foundations",
-            "node": "107:2060"
+            "node": "2629:11434"
           }
         }
       }
@@ -1163,10 +1181,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:04833e53711c8a9119c3f3e297e2b1256e8357e9/164606:486",
+            "id": "VariableID:102:1068",
             "name": "green/50",
             "collection": "foundations",
-            "node": "107:2204"
+            "node": "2629:11589"
           }
         }
       },
@@ -1182,10 +1200,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:ef0e5e38a60c051786f0b8cd798c3bcfd380b149/164606:473",
+            "id": "VariableID:102:1067",
             "name": "green/100",
             "collection": "foundations",
-            "node": "107:2201"
+            "node": "2629:11586"
           }
         }
       },
@@ -1201,10 +1219,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:ba9e088404da0b65d1b2435ca6f4714b0a3f51d0/164606:503",
+            "id": "VariableID:102:1066",
             "name": "green/200",
             "collection": "foundations",
-            "node": "107:2198"
+            "node": "2629:11583"
           }
         }
       },
@@ -1220,10 +1238,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:0aff9b1550ccdf043493294dfbcfcc0dc64788b0/164606:567",
+            "id": "VariableID:102:1065",
             "name": "green/300",
             "collection": "foundations",
-            "node": "107:2195"
+            "node": "2629:11580"
           }
         }
       },
@@ -1239,10 +1257,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:e2feb6c7b55292b290fd828e2aff15addde55e53/164606:609",
+            "id": "VariableID:102:1064",
             "name": "green/400",
             "collection": "foundations",
-            "node": "107:2192"
+            "node": "2629:11577"
           }
         }
       },
@@ -1258,10 +1276,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:ece401547b81096799be6b251780381f3eaaa5ea/164606:632",
+            "id": "VariableID:102:1063",
             "name": "green/500",
             "collection": "foundations",
-            "node": "107:2189"
+            "node": "2629:11574"
           }
         }
       },
@@ -1277,10 +1295,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9609a2b4b5436128f2a9bf3ae703d2ba3128bc88/164606:582",
+            "id": "VariableID:102:1062",
             "name": "green/600",
             "collection": "foundations",
-            "node": "107:2186"
+            "node": "2629:11571"
           }
         }
       },
@@ -1296,10 +1314,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:7c10984cd5fdefb982300e3fd5e5b911509eb41b/164606:625",
+            "id": "VariableID:102:1061",
             "name": "green/700",
             "collection": "foundations",
-            "node": "107:2183"
+            "node": "2629:11568"
           }
         }
       },
@@ -1315,10 +1333,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:076f2c6cd45059aaf8c9da3e86d65569dff5fdfb/164606:505",
+            "id": "VariableID:102:1060",
             "name": "green/800",
             "collection": "foundations",
-            "node": "107:2180"
+            "node": "2629:11565"
           }
         }
       },
@@ -1334,10 +1352,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:27c16b2bbde689633783052ac57ce1b1e611dcc9/164606:506",
+            "id": "VariableID:102:1059",
             "name": "green/900",
             "collection": "foundations",
-            "node": "107:2177"
+            "node": "2629:11562"
           }
         }
       },
@@ -1353,10 +1371,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9415c51b542573e20023c77099d384fd12954555/164606:518",
+            "id": "VariableID:102:1058",
             "name": "green/950",
             "collection": "foundations",
-            "node": "107:2174"
+            "node": "2629:11559"
           }
         }
       }
@@ -1375,10 +1393,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f05b2338f31a5b0bda43df6bedf40890184f77e2/164606:478",
+              "id": "VariableID:164601:29097",
               "name": "neutral/gray/0",
               "collection": "foundations",
-              "node": "107:2010"
+              "node": "2625:134"
             }
           }
         },
@@ -1394,10 +1412,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f4696ae1e134ca4a286373205cdcfc1bf9094ed8/166313:5",
+              "id": "VariableID:164601:29096",
               "name": "neutral/gray/50",
               "collection": "foundations",
-              "node": "107:2007"
+              "node": "2625:131"
             }
           }
         },
@@ -1413,10 +1431,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:29227686d3e8b58c4542fa72f135515bdcda5443/164606:565",
+              "id": "VariableID:164601:29095",
               "name": "neutral/gray/100",
               "collection": "foundations",
-              "node": "107:2004"
+              "node": "2625:128"
             }
           }
         },
@@ -1432,10 +1450,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:e972111300f3d6ce954f955e05a5301efc9cefff/165154:5",
+              "id": "VariableID:164601:29094",
               "name": "neutral/gray/200",
               "collection": "foundations",
-              "node": "107:2001"
+              "node": "2625:125"
             }
           }
         },
@@ -1451,10 +1469,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:261545376ca23add7ce8ef012d6ad6f20bc2c513/164606:641",
+              "id": "VariableID:164601:29093",
               "name": "neutral/gray/300",
               "collection": "foundations",
-              "node": "107:1998"
+              "node": "2625:122"
             }
           }
         },
@@ -1470,10 +1488,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:6dfdc43908798207302cadb5f2586cbe41b05e0c/164606:539",
+              "id": "VariableID:164601:29092",
               "name": "neutral/gray/400",
               "collection": "foundations",
-              "node": "107:1995"
+              "node": "2625:119"
             }
           }
         },
@@ -1489,10 +1507,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:bb683d87793f409f16828e814257ffb00ec7ea33/164606:622",
+              "id": "VariableID:164601:29091",
               "name": "neutral/gray/500",
               "collection": "foundations",
-              "node": "107:1992"
+              "node": "2625:116"
             }
           }
         },
@@ -1508,10 +1526,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:86aead34ef860a8e0e99ee365161a9a7086b268a/164606:542",
+              "id": "VariableID:164601:29090",
               "name": "neutral/gray/600",
               "collection": "foundations",
-              "node": "107:1989"
+              "node": "2625:113"
             }
           }
         },
@@ -1527,10 +1545,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:859db77bdd41a93a15d1079ae729d68cf8a11a8d/164606:440",
+              "id": "VariableID:164601:29089",
               "name": "neutral/gray/700",
               "collection": "foundations",
-              "node": "107:1986"
+              "node": "2625:110"
             }
           }
         },
@@ -1546,10 +1564,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:2dcb6f75e2ac89410c9feae7b7c0db9d69d51e05/167493:26",
+              "id": "VariableID:164601:29088",
               "name": "neutral/gray/800",
               "collection": "foundations",
-              "node": "107:1983"
+              "node": "2625:107"
             }
           }
         },
@@ -1565,10 +1583,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:1313ae24c8152577c9118f67addb55d7efe92d84/164606:547",
+              "id": "VariableID:164601:29087",
               "name": "neutral/gray/900",
               "collection": "foundations",
-              "node": "107:1980"
+              "node": "2624:830"
             }
           }
         },
@@ -1584,10 +1602,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:9efb319e20e5036df01e3ecf16903ddd9f9f5b69/164606:598",
+              "id": "VariableID:164601:29086",
               "name": "neutral/gray/950",
               "collection": "foundations",
-              "node": "107:1977"
+              "node": "2625:103"
             }
           }
         }
@@ -1605,10 +1623,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:53ec7bf7b722912880913de0d732bc87878aa4d9/164606:624",
+              "id": "VariableID:3:28",
               "name": "neutral/slate/0",
               "collection": "foundations",
-              "node": "107:2051"
+              "node": "166254:21694"
             }
           }
         },
@@ -1624,10 +1642,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:592394eb9226faffd9a0822244f6a62f1a6a7453/164606:578",
+              "id": "VariableID:44:171",
               "name": "neutral/slate/50",
               "collection": "foundations",
-              "node": "107:2048"
+              "node": "166254:21691"
             }
           }
         },
@@ -1643,10 +1661,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:588a31984ea6b4f26430e173e4331bd48224e2d0/164606:607",
+              "id": "VariableID:3:26",
               "name": "neutral/slate/100",
               "collection": "foundations",
-              "node": "107:2045"
+              "node": "166254:21688"
             }
           }
         },
@@ -1662,10 +1680,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:215d5e663ef22f9e096108c0b61eaa26d25c0a1e/164606:570",
+              "id": "VariableID:3:25",
               "name": "neutral/slate/200",
               "collection": "foundations",
-              "node": "107:2042"
+              "node": "166254:21685"
             }
           }
         },
@@ -1681,10 +1699,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:83422ac34d12756c51a804b068e654e11184b0fd/164606:564",
+              "id": "VariableID:3:24",
               "name": "neutral/slate/300",
               "collection": "foundations",
-              "node": "107:2039"
+              "node": "166254:21682"
             }
           }
         },
@@ -1700,10 +1718,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:61c2eebb61c270785d6c1dccf150d8380dc2281f/164606:469",
+              "id": "VariableID:3:23",
               "name": "neutral/slate/400",
               "collection": "foundations",
-              "node": "107:2036"
+              "node": "166254:21679"
             }
           }
         },
@@ -1719,10 +1737,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:7dda382d6cbb7bbdafc6243f94dd8a7f14c61e62/164606:411",
+              "id": "VariableID:3:22",
               "name": "neutral/slate/500",
               "collection": "foundations",
-              "node": "107:2033"
+              "node": "166254:21676"
             }
           }
         },
@@ -1738,10 +1756,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:d35278685e8ee9c6d89c074340024ce48ce48f3c/164606:489",
+              "id": "VariableID:3:21",
               "name": "neutral/slate/600",
               "collection": "foundations",
-              "node": "107:2030"
+              "node": "166254:21673"
             }
           }
         },
@@ -1757,10 +1775,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:72424d40b4b96f05e89f8ae190c2bf52e68f82e5/164606:455",
+              "id": "VariableID:3:20",
               "name": "neutral/slate/700",
               "collection": "foundations",
-              "node": "107:2027"
+              "node": "166254:21670"
             }
           }
         },
@@ -1776,10 +1794,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:6a4744028b9e6c5dcf351a0179022dd09da3dead/164606:502",
+              "id": "VariableID:3:19",
               "name": "neutral/slate/800",
               "collection": "foundations",
-              "node": "107:2024"
+              "node": "166254:21667"
             }
           }
         },
@@ -1795,10 +1813,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:745f307553592495308e99a165d0ad141ab3ce5f/164606:477",
+              "id": "VariableID:3:18",
               "name": "neutral/slate/900",
               "collection": "foundations",
-              "node": "107:2021"
+              "node": "166254:21664"
             }
           }
         },
@@ -1814,10 +1832,10 @@
           },
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:175dfa181ec225ecea34d19bf0b781469798c53f/164606:499",
+              "id": "VariableID:44:170",
               "name": "neutral/slate/950",
               "collection": "foundations",
-              "node": "107:2018"
+              "node": "166254:21661"
             }
           }
         }
@@ -1836,10 +1854,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:0364a9bad2d74d5d826e6e9da5e6f4a08c85f880/164641:73",
+            "id": "VariableID:102:1045",
             "name": "orange/50",
             "collection": "foundations",
-            "node": "107:2128"
+            "node": "2625:9064"
           }
         }
       },
@@ -1855,10 +1873,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b9f4f36d634b349f60ab3aa00588e589f6e002ed/164641:70",
+            "id": "VariableID:102:1044",
             "name": "orange/100",
             "collection": "foundations",
-            "node": "107:2125"
+            "node": "2625:8576"
           }
         }
       },
@@ -1874,10 +1892,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9c400fb27d0ddd1224f034256adc4404bf4c54d9/164641:69",
+            "id": "VariableID:102:1043",
             "name": "orange/200",
             "collection": "foundations",
-            "node": "107:2122"
+            "node": "2625:8573"
           }
         }
       },
@@ -1893,10 +1911,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b3b3a64db1843c0fdeb7ef0830a5dd68cdecb30b/164641:67",
+            "id": "VariableID:102:1042",
             "name": "orange/300",
             "collection": "foundations",
-            "node": "107:2119"
+            "node": "2625:8570"
           }
         }
       },
@@ -1912,10 +1930,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:94987873bfe3989b7449e28bec0f2e5a7e58bd31/164641:66",
+            "id": "VariableID:102:1041",
             "name": "orange/400",
             "collection": "foundations",
-            "node": "107:2116"
+            "node": "2625:8567"
           }
         }
       },
@@ -1931,10 +1949,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b03b3a6f702de3878e928571965c6c13b7198154/164641:51",
+            "id": "VariableID:102:1040",
             "name": "orange/500",
             "collection": "foundations",
-            "node": "107:2113"
+            "node": "2625:8564"
           }
         }
       },
@@ -1950,10 +1968,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:8dccaed457d4d894e08ebd8c0937a0de722ba442/164641:82",
+            "id": "VariableID:102:1039",
             "name": "orange/600",
             "collection": "foundations",
-            "node": "107:2110"
+            "node": "2625:8561"
           }
         }
       },
@@ -1969,10 +1987,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a524c466f57efe0a1c61e6cf3a7d79c3a177acfe/164641:80",
+            "id": "VariableID:102:1038",
             "name": "orange/700",
             "collection": "foundations",
-            "node": "107:2107"
+            "node": "2625:8558"
           }
         }
       },
@@ -1988,10 +2006,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:8bd237115980b7b5694f4a8ebfbcd7899cd02845/164641:78",
+            "id": "VariableID:102:1037",
             "name": "orange/800",
             "collection": "foundations",
-            "node": "107:2104"
+            "node": "2625:8555"
           }
         }
       },
@@ -2007,10 +2025,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:85d9ff3c32336d77440d25f07d46e66c282a59b8/164641:76",
+            "id": "VariableID:102:1036",
             "name": "orange/900",
             "collection": "foundations",
-            "node": "107:2101"
+            "node": "2625:8552"
           }
         }
       },
@@ -2026,10 +2044,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:6af12da8340795e1405e4beb4e8f897635ef7ec8/164641:75",
+            "id": "VariableID:102:1035",
             "name": "orange/950",
             "collection": "foundations",
-            "node": "107:2098"
+            "node": "2625:8549"
           }
         }
       }
@@ -2047,10 +2065,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:392e1e8cb7b289c5ad74b73a71cbaa1a29bbda19/164606:426",
+            "id": "VariableID:102:1124",
             "name": "pink/50",
             "collection": "foundations",
-            "node": "107:2356"
+            "node": "2634:252"
           }
         }
       },
@@ -2066,10 +2084,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:810087cd1c6a2a1e89f7c9212309c40ac25fa6c6/164606:422",
+            "id": "VariableID:102:1123",
             "name": "pink/100",
             "collection": "foundations",
-            "node": "107:2353"
+            "node": "2634:249"
           }
         }
       },
@@ -2085,10 +2103,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:69976fe34810e70c7e609c866c57d947a5c2a310/164606:423",
+            "id": "VariableID:102:1122",
             "name": "pink/200",
             "collection": "foundations",
-            "node": "107:2350"
+            "node": "2634:246"
           }
         }
       },
@@ -2104,10 +2122,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9cfada000193fd90de2ba46211f9299074e7f050/164606:583",
+            "id": "VariableID:102:1121",
             "name": "pink/300",
             "collection": "foundations",
-            "node": "107:2347"
+            "node": "2634:243"
           }
         }
       },
@@ -2123,10 +2141,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5ef95c48291b41331a887539ebd6ea35a1ce7d11/164606:525",
+            "id": "VariableID:102:1120",
             "name": "pink/400",
             "collection": "foundations",
-            "node": "107:2344"
+            "node": "2634:240"
           }
         }
       },
@@ -2142,10 +2160,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9288b451a1a061d79183a635dd9cb1dcd6ed69d2/164606:408",
+            "id": "VariableID:102:1119",
             "name": "pink/500",
             "collection": "foundations",
-            "node": "107:2341"
+            "node": "2634:237"
           }
         }
       },
@@ -2161,10 +2179,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:8295be53eaa18c6247c09657eed1dad937a34d2c/164606:642",
+            "id": "VariableID:102:1118",
             "name": "pink/600",
             "collection": "foundations",
-            "node": "107:2338"
+            "node": "2634:234"
           }
         }
       },
@@ -2180,10 +2198,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:eaef71de9e72ef6ed350c1f4481bf5363586ba1d/164606:604",
+            "id": "VariableID:102:1117",
             "name": "pink/700",
             "collection": "foundations",
-            "node": "107:2335"
+            "node": "2634:231"
           }
         }
       },
@@ -2199,10 +2217,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5a2c86758f721d9af8065e47e46b8f75f7f73db4/164606:416",
+            "id": "VariableID:102:1116",
             "name": "pink/800",
             "collection": "foundations",
-            "node": "107:2332"
+            "node": "2634:228"
           }
         }
       },
@@ -2218,10 +2236,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:805c9e2b4f74b51b1bc9dcf635452657b9b504e3/164606:487",
+            "id": "VariableID:102:1115",
             "name": "pink/900",
             "collection": "foundations",
-            "node": "107:2329"
+            "node": "2634:225"
           }
         }
       },
@@ -2237,10 +2255,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:da4ce0ab8cfd866a983f8f1d0617667e27cc21ae/164606:442",
+            "id": "VariableID:102:1114",
             "name": "pink/950",
             "collection": "foundations",
-            "node": "107:2326"
+            "node": "2634:222"
           }
         }
       }
@@ -2258,10 +2276,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:78bbfead3c5918a2e66cdb989dd66da2a531fed7/164606:599",
+            "id": "VariableID:102:1113",
             "name": "purple/50",
             "collection": "foundations",
-            "node": "107:2280"
+            "node": "2634:138"
           }
         }
       },
@@ -2277,10 +2295,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:4ae77d1ddce8f0f87778064c40b096b29411f3e0/164606:654",
+            "id": "VariableID:102:1112",
             "name": "purple/100",
             "collection": "foundations",
-            "node": "107:2277"
+            "node": "2634:135"
           }
         }
       },
@@ -2296,10 +2314,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:c288df4fbe1dba5f6d673b2ed7752ce03a439449/164606:498",
+            "id": "VariableID:102:1111",
             "name": "purple/200",
             "collection": "foundations",
-            "node": "107:2274"
+            "node": "2634:132"
           }
         }
       },
@@ -2315,10 +2333,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:db309cf068333c79c624ef7c05e56244c7419998/164606:439",
+            "id": "VariableID:102:1110",
             "name": "purple/300",
             "collection": "foundations",
-            "node": "107:2271"
+            "node": "2634:129"
           }
         }
       },
@@ -2334,10 +2352,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d88c7413bc6396d9b3252bb204d627811325178e/164606:446",
+            "id": "VariableID:102:1109",
             "name": "purple/400",
             "collection": "foundations",
-            "node": "107:2268"
+            "node": "2634:126"
           }
         }
       },
@@ -2353,10 +2371,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9f1805f08e839d30b61b90ee7bc505fee6be96db/164606:451",
+            "id": "VariableID:102:1108",
             "name": "purple/500",
             "collection": "foundations",
-            "node": "107:2265"
+            "node": "2634:123"
           }
         }
       },
@@ -2372,10 +2390,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:98a02e6578978a4f81f24e5001383e8d60668b15/164606:621",
+            "id": "VariableID:102:1107",
             "name": "purple/600",
             "collection": "foundations",
-            "node": "107:2262"
+            "node": "2634:120"
           }
         }
       },
@@ -2391,10 +2409,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:62170e6aa75b5369d6d943bb0eb7226af7ab021b/164606:645",
+            "id": "VariableID:102:1106",
             "name": "purple/700",
             "collection": "foundations",
-            "node": "107:2259"
+            "node": "2634:117"
           }
         }
       },
@@ -2410,10 +2428,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:3a1ac60d74865312a5c62d147431c9b7e2f9c799/164606:606",
+            "id": "VariableID:102:1105",
             "name": "purple/800",
             "collection": "foundations",
-            "node": "107:2256"
+            "node": "2634:114"
           }
         }
       },
@@ -2429,10 +2447,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:43809c5b0dfa2bd400c0e708ff120872c50eb4c7/164606:463",
+            "id": "VariableID:102:1104",
             "name": "purple/900",
             "collection": "foundations",
-            "node": "107:2253"
+            "node": "2634:111"
           }
         }
       },
@@ -2448,10 +2466,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9bb7326cd83b6b3d1f4687e7fe02c7515cc921c9/164606:413",
+            "id": "VariableID:102:1103",
             "name": "purple/950",
             "collection": "foundations",
-            "node": "107:2250"
+            "node": "2634:108"
           }
         }
       }
@@ -2469,10 +2487,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a1d6ee2792b8aa06b6d6dc078c86e836f5885016/164606:647",
+            "id": "VariableID:102:1032",
             "name": "red/50",
             "collection": "foundations",
-            "node": "107:2166"
+            "node": "2629:11504"
           }
         }
       },
@@ -2488,10 +2506,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9fa25c448c2a8318c25b13f9586fa6c73782c8b3/164606:573",
+            "id": "VariableID:102:1031",
             "name": "red/100",
             "collection": "foundations",
-            "node": "107:2163"
+            "node": "2629:11501"
           }
         }
       },
@@ -2507,10 +2525,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:15c8810ecbec8cef3761d5d5b803d2cc5f12530b/164606:588",
+            "id": "VariableID:102:1030",
             "name": "red/200",
             "collection": "foundations",
-            "node": "107:2160"
+            "node": "2629:11498"
           }
         }
       },
@@ -2526,10 +2544,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:f2156bfc8718d23d7c4e620df68e27fcbee6564d/164606:637",
+            "id": "VariableID:102:1029",
             "name": "red/300",
             "collection": "foundations",
-            "node": "107:2157"
+            "node": "2629:11495"
           }
         }
       },
@@ -2545,10 +2563,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:6d89570de4db225a4d472d1a5b7c867648045aec/164606:612",
+            "id": "VariableID:102:1028",
             "name": "red/400",
             "collection": "foundations",
-            "node": "107:2154"
+            "node": "2629:11492"
           }
         }
       },
@@ -2564,10 +2582,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:92c059b10e7f226e292fb67753a7d855d4099e26/164606:628",
+            "id": "VariableID:102:1027",
             "name": "red/500",
             "collection": "foundations",
-            "node": "107:2151"
+            "node": "2629:11489"
           }
         }
       },
@@ -2583,10 +2601,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:44697677e3e320b59035c459946ef3aaa22ac306/164606:576",
+            "id": "VariableID:102:1026",
             "name": "red/600",
             "collection": "foundations",
-            "node": "107:2148"
+            "node": "2629:11486"
           }
         }
       },
@@ -2602,10 +2620,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:562921be58cabfcfae0d57148061db40df71ba10/164606:581",
+            "id": "VariableID:102:1025",
             "name": "red/700",
             "collection": "foundations",
-            "node": "107:2145"
+            "node": "2629:11483"
           }
         }
       },
@@ -2621,10 +2639,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:772fa6253c1020e9494da6f06a42a504766dd6f7/164606:613",
+            "id": "VariableID:102:1024",
             "name": "red/800",
             "collection": "foundations",
-            "node": "107:2142"
+            "node": "2629:11480"
           }
         }
       },
@@ -2640,10 +2658,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:380a4c33ebc6e7fa9845876d46ad2392192c8e64/164606:522",
+            "id": "VariableID:102:1023",
             "name": "red/900",
             "collection": "foundations",
-            "node": "107:2139"
+            "node": "2629:11477"
           }
         }
       },
@@ -2659,10 +2677,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5c8ad3db550805133fcf13b6e951bbde534c8760/164606:526",
+            "id": "VariableID:102:1022",
             "name": "red/950",
             "collection": "foundations",
-            "node": "107:2136"
+            "node": "2629:11474"
           }
         }
       }
@@ -2680,10 +2698,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:9e8064e23b12d45717e953222df21abb9e7e6cc9/164606:449",
+            "id": "VariableID:102:1091",
             "name": "sky/50",
             "collection": "foundations",
-            "node": "107:2318"
+            "node": "2634:176"
           }
         }
       },
@@ -2699,10 +2717,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:80f6beabdb93d740cc66a488daa7a0ee16e3e1d5/164606:443",
+            "id": "VariableID:102:1090",
             "name": "sky/100",
             "collection": "foundations",
-            "node": "107:2315"
+            "node": "2634:173"
           }
         }
       },
@@ -2718,10 +2736,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:22e68675f15045bfae9ad4cd7f602361aa5c3b0b/164606:594",
+            "id": "VariableID:102:1089",
             "name": "sky/200",
             "collection": "foundations",
-            "node": "107:2312"
+            "node": "2634:170"
           }
         }
       },
@@ -2737,10 +2755,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:75c1ed29149284f8e9616447a65b06331ef41092/164606:508",
+            "id": "VariableID:102:1088",
             "name": "sky/300",
             "collection": "foundations",
-            "node": "107:2309"
+            "node": "2634:167"
           }
         }
       },
@@ -2756,10 +2774,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:04e9643324afd67276cf2c398038f4b8b5523abb/164606:431",
+            "id": "VariableID:102:1087",
             "name": "sky/400",
             "collection": "foundations",
-            "node": "107:2306"
+            "node": "2634:164"
           }
         }
       },
@@ -2775,10 +2793,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:fc3be2794031c71c8284b771d6899b88374cab6b/164606:414",
+            "id": "VariableID:102:1086",
             "name": "sky/500",
             "collection": "foundations",
-            "node": "107:2303"
+            "node": "2634:161"
           }
         }
       },
@@ -2794,10 +2812,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b677b40e7ef00b3c1497e4b49d84f9d3e8a5cd79/164606:452",
+            "id": "VariableID:102:1085",
             "name": "sky/600",
             "collection": "foundations",
-            "node": "107:2300"
+            "node": "2634:158"
           }
         }
       },
@@ -2813,10 +2831,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:4b2d6167a8573c35c6dda5eb41f53f8847b35db5/164606:509",
+            "id": "VariableID:102:1084",
             "name": "sky/700",
             "collection": "foundations",
-            "node": "107:2297"
+            "node": "2634:155"
           }
         }
       },
@@ -2832,10 +2850,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:2c1bcc008f3935e75678ff6a497ff89a18c0589f/164606:466",
+            "id": "VariableID:102:1083",
             "name": "sky/800",
             "collection": "foundations",
-            "node": "107:2294"
+            "node": "2634:152"
           }
         }
       },
@@ -2851,10 +2869,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b5e375b3cdac31cf626c37201b9b9e3e04701724/164606:476",
+            "id": "VariableID:102:1082",
             "name": "sky/900",
             "collection": "foundations",
-            "node": "107:2291"
+            "node": "2634:149"
           }
         }
       },
@@ -2870,10 +2888,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a7022a6b520a76136cba7cac4e56f3105dba18b7/164606:436",
+            "id": "VariableID:102:1081",
             "name": "sky/950",
             "collection": "foundations",
-            "node": "107:2288"
+            "node": "2634:146"
           }
         }
       }
@@ -2891,10 +2909,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:fcd9d0013799d445167fea63aea8b2c9539c02ca/164606:483",
+            "id": "VariableID:102:1080",
             "name": "teal/50",
             "collection": "foundations",
-            "node": "107:2394"
+            "node": "2635:291"
           }
         }
       },
@@ -2910,10 +2928,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d00e787ee1f2bce9fe4f87d063e18718fa894b33/164606:464",
+            "id": "VariableID:102:1079",
             "name": "teal/100",
             "collection": "foundations",
-            "node": "107:2391"
+            "node": "2635:288"
           }
         }
       },
@@ -2929,10 +2947,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:593e3f2d923fac956b7c86f3d77f7f2f3a1f433f/164606:562",
+            "id": "VariableID:102:1078",
             "name": "teal/200",
             "collection": "foundations",
-            "node": "107:2388"
+            "node": "2635:285"
           }
         }
       },
@@ -2948,10 +2966,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:41aaf2fc8429bf8f382f66185f2d21a2722fe896/164606:491",
+            "id": "VariableID:102:1077",
             "name": "teal/300",
             "collection": "foundations",
-            "node": "107:2385"
+            "node": "2635:282"
           }
         }
       },
@@ -2967,10 +2985,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:25519d4c4b39ca69404db627735d060bb5a2da3e/164606:532",
+            "id": "VariableID:102:1076",
             "name": "teal/400",
             "collection": "foundations",
-            "node": "107:2382"
+            "node": "2635:279"
           }
         }
       },
@@ -2986,10 +3004,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:59c59e7eeb4972917109ce039ef6d75f83e8eb34/164606:458",
+            "id": "VariableID:102:1075",
             "name": "teal/500",
             "collection": "foundations",
-            "node": "107:2379"
+            "node": "2635:276"
           }
         }
       },
@@ -3005,10 +3023,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:321e1f400454d2dfa893df375458dc6cb84d08ec/164606:421",
+            "id": "VariableID:102:1074",
             "name": "teal/600",
             "collection": "foundations",
-            "node": "107:2376"
+            "node": "2635:273"
           }
         }
       },
@@ -3024,10 +3042,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:c202edc206a183e8aa5afdc8996e498cf6df532b/164606:457",
+            "id": "VariableID:102:1073",
             "name": "teal/700",
             "collection": "foundations",
-            "node": "107:2373"
+            "node": "2635:270"
           }
         }
       },
@@ -3043,10 +3061,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5e9794c08e8ce3e1d05027611e06080bf0ea93e4/164606:445",
+            "id": "VariableID:102:1072",
             "name": "teal/800",
             "collection": "foundations",
-            "node": "107:2370"
+            "node": "2635:267"
           }
         }
       },
@@ -3062,10 +3080,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:1a946b878666f24eb546d16bc66ac52da9c96959/164606:574",
+            "id": "VariableID:102:1071",
             "name": "teal/900",
             "collection": "foundations",
-            "node": "107:2367"
+            "node": "2635:264"
           }
         }
       },
@@ -3081,10 +3099,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:29b8b75561187c072fa7bc82ba5ceed01a5ff22c/164606:470",
+            "id": "VariableID:102:1070",
             "name": "teal/950",
             "collection": "foundations",
-            "node": "107:2364"
+            "node": "2635:261"
           }
         }
       }
@@ -3102,10 +3120,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:e9b47e5f694c86a55914593351f7396d1abb8e91/164606:536",
+            "id": "VariableID:102:1057",
             "name": "yellow/50",
             "collection": "foundations",
-            "node": "107:2242"
+            "node": "2629:11551"
           }
         }
       },
@@ -3121,10 +3139,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:1fb18d5cebe05fbec2d6fb7dcb41dceb026361a3/164606:553",
+            "id": "VariableID:102:1056",
             "name": "yellow/100",
             "collection": "foundations",
-            "node": "107:2239"
+            "node": "2629:11548"
           }
         }
       },
@@ -3140,10 +3158,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:6d49dde2fdeb95d4af78ff1feb1267083702e4eb/164606:507",
+            "id": "VariableID:102:1055",
             "name": "yellow/200",
             "collection": "foundations",
-            "node": "107:2236"
+            "node": "2629:11545"
           }
         }
       },
@@ -3159,10 +3177,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:471114cb8f4251e973c4eb23e0db5132cb3d3c8c/164606:617",
+            "id": "VariableID:102:1054",
             "name": "yellow/300",
             "collection": "foundations",
-            "node": "107:2233"
+            "node": "2629:11542"
           }
         }
       },
@@ -3178,10 +3196,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:171612930dc596aef131566e4261ed88655cb047/164606:657",
+            "id": "VariableID:102:1053",
             "name": "yellow/400",
             "collection": "foundations",
-            "node": "107:2230"
+            "node": "2629:11539"
           }
         }
       },
@@ -3197,10 +3215,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d1ff661135f805453283beda5a08e25bb2224d03/164606:580",
+            "id": "VariableID:102:1052",
             "name": "yellow/500",
             "collection": "foundations",
-            "node": "107:2227"
+            "node": "2629:11536"
           }
         }
       },
@@ -3216,10 +3234,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:c3b520e3ebbc0278401d333ce372dd2483b99760/164606:500",
+            "id": "VariableID:102:1051",
             "name": "yellow/600",
             "collection": "foundations",
-            "node": "107:2224"
+            "node": "2629:11533"
           }
         }
       },
@@ -3235,10 +3253,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d7e6f7ac38cc9bc2c15ab98d9c0dae415bbe795b/164606:591",
+            "id": "VariableID:102:1050",
             "name": "yellow/700",
             "collection": "foundations",
-            "node": "107:2221"
+            "node": "2629:11530"
           }
         }
       },
@@ -3254,10 +3272,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a9d97b4e11076a9fd2842e90ffa117bb5c0e3090/164606:517",
+            "id": "VariableID:102:1049",
             "name": "yellow/800",
             "collection": "foundations",
-            "node": "107:2218"
+            "node": "2629:11527"
           }
         }
       },
@@ -3273,10 +3291,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a11d07d2b460a1f9692cb572eac7a166c79ce843/164606:630",
+            "id": "VariableID:102:1048",
             "name": "yellow/900",
             "collection": "foundations",
-            "node": "107:2215"
+            "node": "2629:11524"
           }
         }
       },
@@ -3292,10 +3310,10 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:99f173b0f256e9ae26e75200102125d65766081b/164606:651",
+            "id": "VariableID:102:1047",
             "name": "yellow/950",
             "collection": "foundations",
-            "node": "107:2212"
+            "node": "2629:11521"
           }
         }
       }
@@ -3308,7 +3326,7 @@
         "$value": "{primitive.neutral.gray.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:72aba044fab5e6f47d450a4f087e887fc71b50c8/164611:292",
+            "id": "VariableID:164602:30587",
             "name": "0",
             "collection": "neutral",
             "modes": {
@@ -3321,7 +3339,7 @@
         "$value": "{primitive.neutral.gray.50}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:f40bd280cccab349009ebc444c59c6b84198573e/166313:3",
+            "id": "VariableID:164602:29113",
             "name": "50",
             "collection": "neutral",
             "modes": {
@@ -3334,7 +3352,7 @@
         "$value": "{primitive.neutral.gray.100}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:174820217086d6da5181059e806db0caa53c6a42/164611:284",
+            "id": "VariableID:164602:29112",
             "name": "100",
             "collection": "neutral",
             "modes": {
@@ -3347,7 +3365,7 @@
         "$value": "{primitive.neutral.gray.200}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d9968eba29c157ed6121a9d2dabcb54a18eab1d7/165154:3",
+            "id": "VariableID:164602:29111",
             "name": "200",
             "collection": "neutral",
             "modes": {
@@ -3360,7 +3378,7 @@
         "$value": "{primitive.neutral.gray.300}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:4a8a56d47b0f3f1872d642bfa34a415ebfb5defa/164611:275",
+            "id": "VariableID:164602:29110",
             "name": "300",
             "collection": "neutral",
             "modes": {
@@ -3373,7 +3391,7 @@
         "$value": "{primitive.neutral.gray.400}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b1677d749a048919c197bc2e63741aca06aea5d6/164611:269",
+            "id": "VariableID:164602:29109",
             "name": "400",
             "collection": "neutral",
             "modes": {
@@ -3386,7 +3404,7 @@
         "$value": "{primitive.neutral.gray.500}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:3d53b4580f42643a835c049381d556286984a984/164611:264",
+            "id": "VariableID:164602:29108",
             "name": "500",
             "collection": "neutral",
             "modes": {
@@ -3399,7 +3417,7 @@
         "$value": "{primitive.neutral.gray.600}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:085ef8661f12013184d468e8131826bdac128698/164611:260",
+            "id": "VariableID:164602:29107",
             "name": "600",
             "collection": "neutral",
             "modes": {
@@ -3412,7 +3430,7 @@
         "$value": "{primitive.neutral.gray.700}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:b5685a2edd1fbed56d510690414ece611f15e60e/164611:253",
+            "id": "VariableID:164602:29106",
             "name": "700",
             "collection": "neutral",
             "modes": {
@@ -3425,7 +3443,7 @@
         "$value": "{primitive.neutral.gray.800}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:92cd66cdf665006cf4e6106fbb0998168b7ce8a2/167493:24",
+            "id": "VariableID:164602:29105",
             "name": "800",
             "collection": "neutral",
             "modes": {
@@ -3434,11 +3452,24 @@
           }
         }
       },
+      "900": {
+        "$value": "{primitive.neutral.gray.900}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:164602:29104",
+            "name": "900",
+            "collection": "neutral",
+            "modes": {
+              "164602:1": "{primitive.neutral.slate.900}"
+            }
+          }
+        }
+      },
       "950": {
         "$value": "{primitive.neutral.gray.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:85958570953c7c1fea7383817dcf295854e6fd59/164611:237",
+            "id": "VariableID:164602:29100",
             "name": "950",
             "collection": "neutral",
             "modes": {
@@ -3456,10 +3487,10 @@
         "$value": "{reference.neutral.200}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:f1fcd7a853f42b6f8dce4886ba7eb06d1addf6a2/165154:1",
+            "id": "VariableID:213:2997",
             "name": "bg/soft-200",
             "collection": "appearance",
-            "node": "107:2609",
+            "node": "2652:5037",
             "modes": {
               "109:1": "{reference.neutral.700}"
             }
@@ -3470,10 +3501,10 @@
         "$value": "{reference.neutral.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:609843cebaa286c7c1dbb025f50be08052d843c4/164621:104",
+            "id": "VariableID:126:980",
             "name": "bg/strong-950",
             "collection": "appearance",
-            "node": "107:2600",
+            "node": "2652:5034",
             "modes": {
               "109:1": "{reference.neutral.0}"
             }
@@ -3484,10 +3515,10 @@
         "$value": "{reference.neutral.300}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:6be826d2448127af7a2b131664249c23cc942a7f/164621:143",
+            "id": "VariableID:227:1998",
             "name": "bg/sub-300",
             "collection": "appearance",
-            "node": "107:2606",
+            "node": "2652:5088",
             "modes": {
               "109:1": "{reference.neutral.600}"
             }
@@ -3498,10 +3529,10 @@
         "$value": "{reference.neutral.800}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:2f5d96a65e949817ab38c6a848351599234fc5b3/167493:22",
+            "id": "VariableID:126:981",
             "name": "bg/surface-800",
             "collection": "appearance",
-            "node": "107:2603",
+            "node": "2652:5085",
             "modes": {
               "109:1": "{reference.neutral.200}"
             }
@@ -3512,10 +3543,10 @@
         "$value": "{reference.neutral.50}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:046c739a850b947e5fb043a76f4f18d35e02c4b9/167493:21",
+            "id": "VariableID:120:3296",
             "name": "bg/weak-50",
             "collection": "appearance",
-            "node": "107:2612",
+            "node": "2652:5091",
             "modes": {
               "109:1": "{reference.neutral.800}"
             }
@@ -3526,10 +3557,10 @@
         "$value": "{reference.neutral.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:45ccf60bcc6a7356a679a3d61aeb0f0e01fbfaf6/164621:144",
+            "id": "VariableID:109:3066",
             "name": "bg/white-0",
             "collection": "appearance",
-            "node": "107:2615",
+            "node": "2652:5094",
             "modes": {
               "109:1": "{reference.neutral.950}"
             }
@@ -3542,10 +3573,10 @@
         "$value": "{reference.neutral.300}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:4e068c354f73f0fbe3d91dde5cb70604881648d9/164621:100",
+            "id": "VariableID:120:3407",
             "name": "icon/disabled-300",
             "collection": "appearance",
-            "node": "107:2864",
+            "node": "2655:5569",
             "modes": {
               "109:1": "{reference.neutral.600}"
             }
@@ -3556,10 +3587,10 @@
         "$value": "{reference.neutral.400}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:28974d7cf31433bd7c0a8a775b8bc7d48a63e2d3/164621:155",
+            "id": "VariableID:113:819",
             "name": "icon/soft-400",
             "collection": "appearance",
-            "node": "107:2861",
+            "node": "2655:5566",
             "modes": {
               "109:1": "{reference.neutral.500}"
             }
@@ -3570,10 +3601,10 @@
         "$value": "{reference.neutral.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:8cc9124c4d71d3e62c435e27d080857adc1cfd51/164621:169",
+            "id": "VariableID:113:238",
             "name": "icon/strong-950",
             "collection": "appearance",
-            "node": "107:2855",
+            "node": "2655:5560",
             "modes": {
               "109:1": "{reference.neutral.0}"
             }
@@ -3584,10 +3615,10 @@
         "$value": "{reference.neutral.600}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:75d122f800d6ce0e30aa7150425afbd3dac98097/164621:159",
+            "id": "VariableID:113:105",
             "name": "icon/sub-600",
             "collection": "appearance",
-            "node": "107:2858",
+            "node": "2655:5563",
             "modes": {
               "109:1": "{reference.neutral.400}"
             }
@@ -3598,10 +3629,10 @@
         "$value": "{reference.neutral.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:4e11ed17b46101c5c4842272e579fd140c9f1436/164621:139",
+            "id": "VariableID:126:1011",
             "name": "icon/white-0",
             "collection": "appearance",
-            "node": "107:2867",
+            "node": "2655:5641",
             "modes": {
               "109:1": "{reference.neutral.950}"
             }
@@ -3622,7 +3653,7 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:d112083f371688a7b929656d4075535effd6ad61/165714:0",
+            "id": "VariableID:4152:7477",
             "name": "overlay/overlay-gray",
             "collection": "appearance",
             "modes": {
@@ -3638,16 +3669,45 @@
             }
           }
         }
+      },
+      "overlay-slate": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16862745583057404,
+            0.1882352977991104,
+            0.23137255012989044
+          ],
+          "alpha": 0.23999999463558197
+        },
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:165714:11282",
+            "name": "overlay/overlay-slate",
+            "collection": "appearance",
+            "modes": {
+              "109:1": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.16862745583057404,
+                  0.1882352977991104,
+                  0.23137255012989044
+                ],
+                "alpha": 0.5600000023841858
+              }
+            }
+          }
+        }
       }
     },
     "primary-alpha-10": {
       "$value": "{primitive.alpha.blue.alpha-10}",
       "$extensions": {
         "design.agentic.figma": {
-          "id": "VariableID:146d1a657fd3b4e724917a073a5da11543145b26/167874:6",
+          "id": "VariableID:121:218",
           "name": "primary-alpha-10",
           "collection": "brand",
-          "node": "107:2548",
+          "node": "2645:369",
           "modes": {
             "121:0": "{primitive.alpha.purple.alpha-10}",
             "247:0": "{primitive.alpha.orange.alpha-10}",
@@ -3660,10 +3720,10 @@
       "$value": "{primitive.alpha.blue.alpha-16}",
       "$extensions": {
         "design.agentic.figma": {
-          "id": "VariableID:86be216ef89f0bf1295abd0c4e13aaae53b01c5e/167874:4",
+          "id": "VariableID:121:219",
           "name": "primary-alpha-16",
           "collection": "brand",
-          "node": "107:2545",
+          "node": "2645:366",
           "modes": {
             "121:0": "{primitive.alpha.purple.alpha-16}",
             "247:0": "{primitive.alpha.orange.alpha-16}",
@@ -3676,10 +3736,10 @@
       "$value": "{primitive.blue.500}",
       "$extensions": {
         "design.agentic.figma": {
-          "id": "VariableID:b0b43b8244cf7ea4f9403dc05f3a9b4dfe7b86c4/164641:50",
+          "id": "VariableID:120:674",
           "name": "primary-base",
           "collection": "brand",
-          "node": "107:2542",
+          "node": "2645:363",
           "modes": {
             "121:0": "{primitive.purple.500}",
             "247:0": "{primitive.orange.500}",
@@ -3692,10 +3752,10 @@
       "$value": "{primitive.blue.800}",
       "$extensions": {
         "design.agentic.figma": {
-          "id": "VariableID:a31c82b8d571a045b63add3639f796402ba2c0d9/164641:77",
+          "id": "VariableID:231:978",
           "name": "primary-dark",
           "collection": "brand",
-          "node": "107:2536",
+          "node": "2645:357",
           "modes": {
             "121:0": "{primitive.purple.800}",
             "247:0": "{primitive.orange.800}",
@@ -3708,10 +3768,10 @@
       "$value": "{primitive.blue.700}",
       "$extensions": {
         "design.agentic.figma": {
-          "id": "VariableID:bac95f84a8d911bb2ea04bfd31b22aa1172537e6/164641:79",
+          "id": "VariableID:120:684",
           "name": "primary-darker",
           "collection": "brand",
-          "node": "107:2539",
+          "node": "2645:360",
           "modes": {
             "121:0": "{primitive.purple.700}",
             "247:0": "{primitive.orange.700}",
@@ -3733,7 +3793,7 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:887122d7023f7362b3d8b95051bac8b167b097b5/164621:141",
+            "id": "VariableID:3698:4249",
             "name": "social/amazon",
             "collection": "appearance",
             "modes": {
@@ -3762,7 +3822,7 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:29b892a3b31c265c1332ab3fea558ead909b0e7e/164621:157",
+            "id": "VariableID:172:5608",
             "name": "social/apple",
             "collection": "appearance",
             "modes": {
@@ -3791,7 +3851,7 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:404c8599ff47538e896066d96de6cc3757657f0c/164621:148",
+            "id": "VariableID:181:5158",
             "name": "social/github",
             "collection": "appearance",
             "modes": {
@@ -3820,7 +3880,7 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5579e46ae49ad139c3941282091234811178d6d0/164621:132",
+            "id": "VariableID:589:2843",
             "name": "social/notion",
             "collection": "appearance",
             "modes": {
@@ -3849,8 +3909,66 @@
         },
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5fc0df15b81e316576ade0cf4e11a4ef5345093b/164621:126",
+            "id": "VariableID:176:5745",
             "name": "social/twitter",
+            "collection": "appearance",
+            "modes": {
+              "109:1": {
+                "colorSpace": "srgb",
+                "components": [
+                  1,
+                  1,
+                  1
+                ],
+                "alpha": 1
+              }
+            }
+          }
+        }
+      },
+      "tidal": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3551:4731",
+            "name": "social/tidal",
+            "collection": "appearance",
+            "modes": {
+              "109:1": {
+                "colorSpace": "srgb",
+                "components": [
+                  1,
+                  1,
+                  1
+                ],
+                "alpha": 1
+              }
+            }
+          }
+        }
+      },
+      "zendesk": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.08627451211214066,
+            0.0784313753247261,
+            0.05098039284348488
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3969:13324",
+            "name": "social/zendesk",
             "collection": "appearance",
             "modes": {
               "109:1": {
@@ -3873,10 +3991,10 @@
           "$value": "{primitive.yellow.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:87c85411cdd6bfe2ce828fb81642c38938b720af/164621:121",
+              "id": "VariableID:116:1438",
               "name": "state/away/base",
               "collection": "appearance",
-              "node": "107:3291",
+              "node": "2665:2684",
               "modes": {
                 "109:1": "{primitive.yellow.600}"
               }
@@ -3887,10 +4005,10 @@
           "$value": "{primitive.yellow.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:460e019f481d74a666286ef364c2aa4a0128a045/164621:140",
+              "id": "VariableID:116:1437",
               "name": "state/away/dark",
               "collection": "appearance",
-              "node": "107:3288",
+              "node": "2665:2681",
               "modes": {
                 "109:1": "{primitive.yellow.400}"
               }
@@ -3901,10 +4019,10 @@
           "$value": "{primitive.yellow.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:716de3d71fd7fd22462ae9a85f96d192e40f7155/164621:146",
+              "id": "VariableID:116:1439",
               "name": "state/away/light",
               "collection": "appearance",
-              "node": "107:3294",
+              "node": "2665:2687",
               "modes": {
                 "109:1": "{primitive.alpha.yellow.alpha-24}"
               }
@@ -3915,10 +4033,10 @@
           "$value": "{primitive.yellow.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:86a43a05e156f2fb76e68cff9fce30ef83a11ddf/164621:127",
+              "id": "VariableID:116:1440",
               "name": "state/away/lighter",
               "collection": "appearance",
-              "node": "107:3297",
+              "node": "2665:2690",
               "modes": {
                 "109:1": "{primitive.alpha.yellow.alpha-16}"
               }
@@ -3931,10 +4049,10 @@
           "$value": "{primitive.red.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:a2b5a1210cc5f6cbb5e98dad4275fde23587b92e/164621:166",
+              "id": "VariableID:113:62",
               "name": "state/error/base",
               "collection": "appearance",
-              "node": "107:3153",
+              "node": "2664:2511",
               "modes": {
                 "109:1": "{primitive.red.600}"
               }
@@ -3945,10 +4063,10 @@
           "$value": "{primitive.red.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:d85048cafb1136fbb8e677446932e3cd05e8d0ef/164621:165",
+              "id": "VariableID:116:321",
               "name": "state/error/dark",
               "collection": "appearance",
-              "node": "107:3150",
+              "node": "2664:2508",
               "modes": {
                 "109:1": "{primitive.red.400}"
               }
@@ -3959,10 +4077,10 @@
           "$value": "{primitive.red.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:143ec4baa82083b7b72f9e187935b3397eb03eb8/164621:162",
+              "id": "VariableID:113:211",
               "name": "state/error/light",
               "collection": "appearance",
-              "node": "107:3156",
+              "node": "2664:2514",
               "modes": {
                 "109:1": "{primitive.alpha.red.alpha-24}"
               }
@@ -3973,10 +4091,10 @@
           "$value": "{primitive.red.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:bbba43c8baaa9048fbd05aab890bfa7e6fadf67b/164621:163",
+              "id": "VariableID:116:322",
               "name": "state/error/lighter",
               "collection": "appearance",
-              "node": "107:3159",
+              "node": "2664:2517",
               "modes": {
                 "109:1": "{primitive.alpha.red.alpha-16}"
               }
@@ -3989,10 +4107,10 @@
           "$value": "{reference.neutral.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:26db4fb2a118b8f5712233afe1e88eed888ec983/164621:153",
+              "id": "VariableID:113:1114",
               "name": "state/faded/base",
               "collection": "appearance",
-              "node": "107:2946",
+              "node": "2663:2080",
               "modes": {
                 "109:1": "{reference.neutral.500}"
               }
@@ -4003,10 +4121,10 @@
           "$value": "{reference.neutral.800}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:aa149861de8652a7fcfa66dcdbe6ed10ae9c621a/167493:20",
+              "id": "VariableID:117:241",
               "name": "state/faded/dark",
               "collection": "appearance",
-              "node": "107:2943",
+              "node": "2663:2077",
               "modes": {
                 "109:1": "{reference.neutral.300}"
               }
@@ -4017,10 +4135,10 @@
           "$value": "{reference.neutral.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:6cf08b18102934bcad11e51286e0e4c468795554/165154:4",
+              "id": "VariableID:113:60",
               "name": "state/faded/light",
               "collection": "appearance",
-              "node": "107:2949",
+              "node": "2663:2083",
               "modes": {
                 "109:1": "{primitive.alpha.gray.alpha-24}"
               }
@@ -4031,10 +4149,10 @@
           "$value": "{reference.neutral.100}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:b10fa73d26f27fd97869fb1d3653ee19f0de6402/165018:1",
+              "id": "VariableID:117:242",
               "name": "state/faded/lighter",
               "collection": "appearance",
-              "node": "107:2952",
+              "node": "2663:2086",
               "modes": {
                 "109:1": "{primitive.alpha.gray.alpha-16}"
               }
@@ -4047,10 +4165,10 @@
           "$value": "{primitive.purple.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:ed006a87f1ffb10f80317702d387ad68eb869b9c/164621:135",
+              "id": "VariableID:116:1442",
               "name": "state/feature/base",
               "collection": "appearance",
-              "node": "107:3360",
+              "node": "2665:2771",
               "modes": {
                 "109:1": "{primitive.purple.500}"
               }
@@ -4061,10 +4179,10 @@
           "$value": "{primitive.purple.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:88fc5e3ae12c37920653a3fd5494c1caedbc2e3f/164621:152",
+              "id": "VariableID:116:1441",
               "name": "state/feature/dark",
               "collection": "appearance",
-              "node": "107:3357",
+              "node": "2665:2768",
               "modes": {
                 "109:1": "{primitive.purple.400}"
               }
@@ -4075,10 +4193,10 @@
           "$value": "{primitive.purple.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f9c3daf1ae0cc6f271a7a43f7f08112b0dd90930/164621:130",
+              "id": "VariableID:116:1443",
               "name": "state/feature/light",
               "collection": "appearance",
-              "node": "107:3363",
+              "node": "2665:2774",
               "modes": {
                 "109:1": "{primitive.alpha.purple.alpha-24}"
               }
@@ -4089,10 +4207,10 @@
           "$value": "{primitive.purple.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:9b0f6a208206a0b37ac078134d0fb31b1fb74bdf/164621:118",
+              "id": "VariableID:116:1444",
               "name": "state/feature/lighter",
               "collection": "appearance",
-              "node": "107:3366",
+              "node": "2665:2777",
               "modes": {
                 "109:1": "{primitive.alpha.purple.alpha-16}"
               }
@@ -4105,10 +4223,10 @@
           "$value": "{primitive.pink.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:74e5e318cb84d028611a3ce73c8edeb93a3ab787/164621:112",
+              "id": "VariableID:117:186",
               "name": "state/highlighted/base",
               "collection": "appearance",
-              "node": "107:3498",
+              "node": "2665:2944",
               "modes": {
                 "109:1": "{primitive.pink.600}"
               }
@@ -4119,10 +4237,10 @@
           "$value": "{primitive.pink.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:fd190583af99e268f794d6ed41932a7e0f9f3f03/164621:160",
+              "id": "VariableID:117:185",
               "name": "state/highlighted/dark",
               "collection": "appearance",
-              "node": "107:3495",
+              "node": "2665:2941",
               "modes": {
                 "109:1": "{primitive.pink.400}"
               }
@@ -4133,10 +4251,10 @@
           "$value": "{primitive.pink.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:f6d56ce5f2246f6ccde8abee6077678b51d73111/164621:154",
+              "id": "VariableID:117:187",
               "name": "state/highlighted/light",
               "collection": "appearance",
-              "node": "107:3501",
+              "node": "2665:2947",
               "modes": {
                 "109:1": "{primitive.alpha.pink.alpha-24}"
               }
@@ -4147,10 +4265,10 @@
           "$value": "{primitive.pink.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:8500535f070dbf16dadabfa3ef23d62a8e3e4f49/164621:108",
+              "id": "VariableID:117:188",
               "name": "state/highlighted/lighter",
               "collection": "appearance",
-              "node": "107:3504",
+              "node": "2665:2950",
               "modes": {
                 "109:1": "{primitive.alpha.pink.alpha-16}"
               }
@@ -4163,10 +4281,10 @@
           "$value": "{primitive.blue.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:dc69dddded691e7ef44fd701a91b63f24e48bcd5/164621:137",
+              "id": "VariableID:116:386",
               "name": "state/information/base",
               "collection": "appearance",
-              "node": "107:3015",
+              "node": "2663:2328",
               "modes": {
                 "109:1": "{primitive.blue.500}"
               }
@@ -4177,10 +4295,10 @@
           "$value": "{primitive.blue.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:5168088412d7e615010ead706c4e470be1a95849/164621:142",
+              "id": "VariableID:116:385",
               "name": "state/information/dark",
               "collection": "appearance",
-              "node": "107:3012",
+              "node": "2663:2325",
               "modes": {
                 "109:1": "{primitive.blue.400}"
               }
@@ -4191,10 +4309,10 @@
           "$value": "{primitive.blue.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:dc3b640769cee555d6bba4c45dda8b8df912919e/164621:131",
+              "id": "VariableID:116:387",
               "name": "state/information/light",
               "collection": "appearance",
-              "node": "107:3018",
+              "node": "2663:2331",
               "modes": {
                 "109:1": "{primitive.alpha.blue.alpha-24}"
               }
@@ -4205,10 +4323,10 @@
           "$value": "{primitive.blue.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:3b2bbdc974f6725acc9c69469872ec43ff2a3f65/164621:119",
+              "id": "VariableID:116:388",
               "name": "state/information/lighter",
               "collection": "appearance",
-              "node": "107:3021",
+              "node": "2663:2334",
               "modes": {
                 "109:1": "{primitive.alpha.blue.alpha-16}"
               }
@@ -4221,10 +4339,10 @@
           "$value": "{primitive.teal.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:53b5926f4ce0f6aeead8ffe4152ac06d1b4ed7da/164621:161",
+              "id": "VariableID:117:190",
               "name": "state/stable/base",
               "collection": "appearance",
-              "node": "107:3567",
+              "node": "2665:3030",
               "modes": {
                 "109:1": "{primitive.teal.600}"
               }
@@ -4235,10 +4353,10 @@
           "$value": "{primitive.teal.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:1c6d8c9b001a006a18b6f2ddde3240b2fa6f3c1c/164621:151",
+              "id": "VariableID:117:189",
               "name": "state/stable/dark",
               "collection": "appearance",
-              "node": "107:3564",
+              "node": "2665:3027",
               "modes": {
                 "109:1": "{primitive.teal.400}"
               }
@@ -4249,10 +4367,10 @@
           "$value": "{primitive.teal.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:a508270e79c6a3c1513527cc66fcbe542c4e125a/164621:164",
+              "id": "VariableID:117:191",
               "name": "state/stable/light",
               "collection": "appearance",
-              "node": "107:3570",
+              "node": "2665:3033",
               "modes": {
                 "109:1": "{primitive.alpha.teal.alpha-24}"
               }
@@ -4263,10 +4381,10 @@
           "$value": "{primitive.teal.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:c82a8c84b834a3aa651688df5512ceebb3f7d8b0/164621:120",
+              "id": "VariableID:117:192",
               "name": "state/stable/lighter",
               "collection": "appearance",
-              "node": "107:3573",
+              "node": "2665:3036",
               "modes": {
                 "109:1": "{primitive.alpha.teal.alpha-16}"
               }
@@ -4279,10 +4397,10 @@
           "$value": "{primitive.green.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:32c33e1b30075b5e30f473d3c147bed0a2fd3a68/164621:128",
+              "id": "VariableID:116:390",
               "name": "state/success/base",
               "collection": "appearance",
-              "node": "107:3222",
+              "node": "2665:2597",
               "modes": {
                 "109:1": "{primitive.green.600}"
               }
@@ -4293,10 +4411,10 @@
           "$value": "{primitive.green.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:4d239d044cf3893d42f24b4400a0961d7a2d7b10/164621:116",
+              "id": "VariableID:116:389",
               "name": "state/success/dark",
               "collection": "appearance",
-              "node": "107:3219",
+              "node": "2665:2594",
               "modes": {
                 "109:1": "{primitive.green.400}"
               }
@@ -4307,10 +4425,10 @@
           "$value": "{primitive.green.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:830b5c93d3423b1b89f4ef14935acddf5a5bffb7/164621:124",
+              "id": "VariableID:116:391",
               "name": "state/success/light",
               "collection": "appearance",
-              "node": "107:3225",
+              "node": "2665:2600",
               "modes": {
                 "109:1": "{primitive.alpha.green.alpha-16}"
               }
@@ -4321,10 +4439,10 @@
           "$value": "{primitive.green.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:92f109162cd0ca4f9e291d5ecf8c318317e66f85/164621:114",
+              "id": "VariableID:116:392",
               "name": "state/success/lighter",
               "collection": "appearance",
-              "node": "107:3228",
+              "node": "2665:2603",
               "modes": {
                 "109:1": "{primitive.alpha.green.alpha-10}"
               }
@@ -4337,10 +4455,10 @@
           "$value": "{primitive.sky.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:5ef3169ee7a8b7c1a6f55311f62d0b925063776e/164621:129",
+              "id": "VariableID:116:1446",
               "name": "state/verified/base",
               "collection": "appearance",
-              "node": "107:3429",
+              "node": "2665:2858",
               "modes": {
                 "109:1": "{primitive.sky.600}"
               }
@@ -4351,10 +4469,10 @@
           "$value": "{primitive.sky.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:8d4970224f1d1dd0b121a0bed11a48c74f9e178e/164621:117",
+              "id": "VariableID:116:1445",
               "name": "state/verified/dark",
               "collection": "appearance",
-              "node": "107:3426",
+              "node": "2665:2855",
               "modes": {
                 "109:1": "{primitive.sky.400}"
               }
@@ -4365,10 +4483,10 @@
           "$value": "{primitive.sky.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:8c7cdf1be75a01aee958a64b697e27f3ea420a35/164621:125",
+              "id": "VariableID:116:1447",
               "name": "state/verified/light",
               "collection": "appearance",
-              "node": "107:3432",
+              "node": "2665:2861",
               "modes": {
                 "109:1": "{primitive.alpha.sky.alpha-24}"
               }
@@ -4379,10 +4497,10 @@
           "$value": "{primitive.sky.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:8edbe46c2fe550f4d8869281cbfc6684250cfe7a/164621:147",
+              "id": "VariableID:116:1448",
               "name": "state/verified/lighter",
               "collection": "appearance",
-              "node": "107:3435",
+              "node": "2665:2864",
               "modes": {
                 "109:1": "{primitive.alpha.sky.alpha-16}"
               }
@@ -4395,10 +4513,10 @@
           "$value": "{primitive.orange.500}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:98f69a0ccc705fa033ce655e534514bc8a538777/164641:81",
+              "id": "VariableID:116:382",
               "name": "state/warning/base",
               "collection": "appearance",
-              "node": "107:3084",
+              "node": "2664:2425",
               "modes": {
                 "109:1": "{primitive.orange.600}"
               }
@@ -4409,10 +4527,10 @@
           "$value": "{primitive.orange.950}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:7b351cc8eddfdf652a24ed1e07f3040b01cd0312/164641:74",
+              "id": "VariableID:116:381",
               "name": "state/warning/dark",
               "collection": "appearance",
-              "node": "107:3081",
+              "node": "2664:2422",
               "modes": {
                 "109:1": "{primitive.orange.400}"
               }
@@ -4423,10 +4541,10 @@
           "$value": "{primitive.orange.200}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:c945cb13d0609db17c75271dd6d6102d164f6900/167874:0",
+              "id": "VariableID:116:383",
               "name": "state/warning/light",
               "collection": "appearance",
-              "node": "107:3087",
+              "node": "2664:2428",
               "modes": {
                 "109:1": "{primitive.alpha.orange.alpha-24}"
               }
@@ -4437,10 +4555,10 @@
           "$value": "{primitive.orange.50}",
           "$extensions": {
             "design.agentic.figma": {
-              "id": "VariableID:489508570811dcba6130e0e188153f9f182bd8c7/167874:3",
+              "id": "VariableID:116:384",
               "name": "state/warning/lighter",
               "collection": "appearance",
-              "node": "107:3090",
+              "node": "2664:2431",
               "modes": {
                 "109:1": "{primitive.alpha.orange.alpha-16}"
               }
@@ -4454,10 +4572,10 @@
         "$value": "{reference.neutral.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:201ec9ae52768b414dbe4d83971889c26e2566e8/164621:105",
+            "id": "VariableID:181:5266",
             "name": "static/static-black",
             "collection": "appearance",
-            "node": "107:2557",
+            "node": "2648:1219",
             "modes": {
               "109:1": "{reference.neutral.950}"
             }
@@ -4468,10 +4586,10 @@
         "$value": "{reference.neutral.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:fc853ca0dd5cee16153ef18f51348c6990e592d0/164621:171",
+            "id": "VariableID:109:3051",
             "name": "static/static-white",
             "collection": "appearance",
-            "node": "107:2560",
+            "node": "2648:1228",
             "modes": {
               "109:1": "{reference.neutral.0}"
             }
@@ -4484,10 +4602,10 @@
         "$value": "{reference.neutral.200}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5db5255d68aea958c20bac64e1ee575c7bcb9f3d/167493:25",
+            "id": "VariableID:113:104",
             "name": "stroke/soft-200",
             "collection": "appearance",
-            "node": "107:2790",
+            "node": "2655:5462",
             "modes": {
               "109:1": "{reference.neutral.800}"
             }
@@ -4498,10 +4616,10 @@
         "$value": "{reference.neutral.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:514aac90600a8d641485d60416c5492a8debda3d/164621:133",
+            "id": "VariableID:126:1133",
             "name": "stroke/strong-950",
             "collection": "appearance",
-            "node": "107:2784",
+            "node": "2655:5456",
             "modes": {
               "109:1": "{reference.neutral.0}"
             }
@@ -4512,10 +4630,10 @@
         "$value": "{reference.neutral.300}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:5f305d83548ca785cc8742a5f535b9b34b54133f/164621:122",
+            "id": "VariableID:450:9427",
             "name": "stroke/sub-300",
             "collection": "appearance",
-            "node": "107:2787",
+            "node": "2655:5459",
             "modes": {
               "109:1": "{reference.neutral.600}"
             }
@@ -4526,10 +4644,10 @@
         "$value": "{reference.neutral.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:a807879b87f5299f61f743574b7a6c3316bb4c8c/164621:99",
+            "id": "VariableID:385:2369",
             "name": "stroke/white-0",
             "collection": "appearance",
-            "node": "107:2793",
+            "node": "2655:5468",
             "modes": {
               "109:1": "{reference.neutral.950}"
             }
@@ -4542,10 +4660,10 @@
         "$value": "{reference.neutral.300}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:f96b976543867f271a6060e77cc7181c8ad620b3/164621:110",
+            "id": "VariableID:120:3399",
             "name": "text/disabled-300",
             "collection": "appearance",
-            "node": "107:2708",
+            "node": "2655:5296",
             "modes": {
               "109:1": "{reference.neutral.600}"
             }
@@ -4556,10 +4674,10 @@
         "$value": "{reference.neutral.400}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:81aaf96d08da793fcca2f4b25d4e425d093c045d/164621:107",
+            "id": "VariableID:262:1714",
             "name": "text/soft-400",
             "collection": "appearance",
-            "node": "107:2705",
+            "node": "2655:5293",
             "modes": {
               "109:1": "{reference.neutral.500}"
             }
@@ -4570,10 +4688,10 @@
         "$value": "{reference.neutral.950}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:ea5c25a99b942a523674bd8c81cfb8978e6b962d/164621:150",
+            "id": "VariableID:113:103",
             "name": "text/strong-950",
             "collection": "appearance",
-            "node": "107:2699",
+            "node": "2655:5287",
             "modes": {
               "109:1": "{reference.neutral.0}"
             }
@@ -4584,10 +4702,10 @@
         "$value": "{reference.neutral.600}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:12ca309221e167655f4a71a63996ae2a76f2dd01/164621:158",
+            "id": "VariableID:113:106",
             "name": "text/sub-600",
             "collection": "appearance",
-            "node": "107:2702",
+            "node": "2655:5290",
             "modes": {
               "109:1": "{reference.neutral.400}"
             }
@@ -4598,13 +4716,95 @@
         "$value": "{reference.neutral.0}",
         "$extensions": {
           "design.agentic.figma": {
-            "id": "VariableID:972e5465ab3666890ff36ef0cc9a7b114f80d1ce/164621:113",
+            "id": "VariableID:126:245",
             "name": "text/white-0",
             "collection": "appearance",
-            "node": "107:2711",
+            "node": "2655:5302",
             "modes": {
               "109:1": "{reference.neutral.950}"
             }
+          }
+        }
+      }
+    },
+    "illustration": {
+      "strong-400": {
+        "$value": "{primitive.neutral.gray.400}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3860:4338",
+            "name": "illustration/strong-400",
+            "collection": "appearance",
+            "modes": {
+              "109:1": "{primitive.neutral.gray.600}"
+            }
+          }
+        }
+      },
+      "sub-300": {
+        "$value": "{primitive.neutral.gray.300}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3860:4344",
+            "name": "illustration/sub-300",
+            "collection": "appearance",
+            "modes": {
+              "109:1": "{primitive.neutral.gray.700}"
+            }
+          }
+        }
+      },
+      "soft-200": {
+        "$value": "{primitive.neutral.gray.200}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3860:4345",
+            "name": "illustration/soft-200",
+            "collection": "appearance",
+            "modes": {
+              "109:1": "{primitive.neutral.gray.800}"
+            }
+          }
+        }
+      },
+      "weak-100": {
+        "$value": "{primitive.neutral.gray.100}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3860:4346",
+            "name": "illustration/weak-100",
+            "collection": "appearance",
+            "modes": {
+              "109:1": "{primitive.neutral.gray.900}"
+            }
+          }
+        }
+      },
+      "white-0": {
+        "$value": "{primitive.neutral.gray.0}",
+        "$extensions": {
+          "design.agentic.figma": {
+            "id": "VariableID:3860:4347",
+            "name": "illustration/white-0",
+            "collection": "appearance",
+            "modes": {
+              "109:1": "{primitive.neutral.gray.950}"
+            }
+          }
+        }
+      }
+    },
+    "primary-alpha-24": {
+      "$value": "{primitive.alpha.blue.alpha-24}",
+      "$extensions": {
+        "design.agentic.figma": {
+          "id": "VariableID:4586:2886",
+          "name": "primary-alpha-24",
+          "collection": "brand",
+          "modes": {
+            "121:0": "{primitive.alpha.purple.alpha-24}",
+            "247:0": "{primitive.alpha.orange.alpha-24}",
+            "247:1": "{primitive.alpha.sky.alpha-24}"
           }
         }
       }

@@ -9,6 +9,7 @@
   --ads-color-alpha-blue-alpha-24: color(srgb 0.27843138575553894 0.42352941632270813 1 / 0.23999999463558197);
   --ads-color-alpha-gray-alpha-16: color(srgb 0.6411764621734619 0.6411764621734619 0.6411764621734619 / 0.1599999964237213);
   --ads-color-alpha-gray-alpha-24: color(srgb 0.6411764621734619 0.6411764621734619 0.6411764621734619 / 0.23999999463558197);
+  --ads-color-alpha-gray-alpha-10: color(srgb 0.6411764621734619 0.6411764621734619 0.6411764621734619 / 0.10000000149011612);
   --ads-color-alpha-green-alpha-10: color(srgb 0.12156862765550613 0.7568627595901489 0.41960784792900085 / 0.10000000149011612);
   --ads-color-alpha-green-alpha-16: color(srgb 0.12156862765550613 0.7568627595901489 0.41960784792900085 / 0.1599999964237213);
   --ads-color-alpha-green-alpha-24: color(srgb 0.12156862765550613 0.7568627595901489 0.41960784792900085 / 0.23999999463558197);
@@ -172,6 +173,7 @@
   --ads-color-reference-neutral-600: var(--ads-color-neutral-gray-600);
   --ads-color-reference-neutral-700: var(--ads-color-neutral-gray-700);
   --ads-color-reference-neutral-800: var(--ads-color-neutral-gray-800);
+  --ads-color-reference-neutral-900: var(--ads-color-neutral-gray-900);
   --ads-color-reference-neutral-950: var(--ads-color-neutral-gray-950);
   --ads-color-bg-soft-200: var(--ads-color-reference-neutral-200);
   --ads-color-bg-strong-950: var(--ads-color-reference-neutral-950);
@@ -185,6 +187,7 @@
   --ads-color-icon-sub-600: var(--ads-color-reference-neutral-600);
   --ads-color-icon-white-0: var(--ads-color-reference-neutral-0);
   --ads-color-overlay-overlay-gray: color(srgb 0.20000000298023224 0.20000000298023224 0.20000000298023224 / 0.23999999463558197);
+  --ads-color-overlay-overlay-slate: color(srgb 0.16862745583057404 0.1882352977991104 0.23137255012989044 / 0.23999999463558197);
   --ads-color-primary-alpha-10: var(--ads-color-alpha-blue-alpha-10);
   --ads-color-primary-alpha-16: var(--ads-color-alpha-blue-alpha-16);
   --ads-color-primary-base: var(--ads-color-blue-500);
@@ -195,6 +198,8 @@
   --ads-color-social-github: color(srgb 0.1411764770746231 0.16078431904315948 0.18431372940540314 / 1);
   --ads-color-social-notion: color(srgb 0.11764705926179886 0.13333334028720856 0.14901961386203766 / 1);
   --ads-color-social-twitter: color(srgb 0.003921568859368563 0.003921568859368563 0.003921568859368563 / 1);
+  --ads-color-social-tidal: color(srgb 0 0 0 / 1);
+  --ads-color-social-zendesk: color(srgb 0.08627451211214066 0.0784313753247261 0.05098039284348488 / 1);
   --ads-color-state-away-base: var(--ads-color-yellow-500);
   --ads-color-state-away-dark: var(--ads-color-yellow-950);
   --ads-color-state-away-light: var(--ads-color-yellow-200);
@@ -246,6 +251,12 @@
   --ads-color-text-strong-950: var(--ads-color-reference-neutral-950);
   --ads-color-text-sub-600: var(--ads-color-reference-neutral-600);
   --ads-color-text-white-0: var(--ads-color-reference-neutral-0);
+  --ads-color-illustration-strong-400: var(--ads-color-neutral-gray-400);
+  --ads-color-illustration-sub-300: var(--ads-color-neutral-gray-300);
+  --ads-color-illustration-soft-200: var(--ads-color-neutral-gray-200);
+  --ads-color-illustration-weak-100: var(--ads-color-neutral-gray-100);
+  --ads-color-illustration-white-0: var(--ads-color-neutral-gray-0);
+  --ads-color-primary-alpha-24: var(--ads-color-alpha-blue-alpha-24);
 }
 
 :root[data-color-mode="dark"], [data-color-scope][data-color-mode="dark"] {
@@ -261,11 +272,14 @@
   --ads-color-icon-sub-600: var(--ads-color-reference-neutral-400);
   --ads-color-icon-white-0: var(--ads-color-reference-neutral-950);
   --ads-color-overlay-overlay-gray: color(srgb 0.20000000298023224 0.20000000298023224 0.20000000298023224 / 0.5600000023841858);
+  --ads-color-overlay-overlay-slate: color(srgb 0.16862745583057404 0.1882352977991104 0.23137255012989044 / 0.5600000023841858);
   --ads-color-social-amazon: color(srgb 1 1 1 / 1);
   --ads-color-social-apple: color(srgb 1 1 1 / 1);
   --ads-color-social-github: color(srgb 1 1 1 / 1);
   --ads-color-social-notion: color(srgb 1 1 1 / 1);
   --ads-color-social-twitter: color(srgb 1 1 1 / 1);
+  --ads-color-social-tidal: color(srgb 1 1 1 / 1);
+  --ads-color-social-zendesk: color(srgb 1 1 1 / 1);
   --ads-color-state-away-base: var(--ads-color-yellow-600);
   --ads-color-state-away-dark: var(--ads-color-yellow-400);
   --ads-color-state-away-light: var(--ads-color-alpha-yellow-alpha-24);
@@ -317,6 +331,11 @@
   --ads-color-text-strong-950: var(--ads-color-reference-neutral-0);
   --ads-color-text-sub-600: var(--ads-color-reference-neutral-400);
   --ads-color-text-white-0: var(--ads-color-reference-neutral-950);
+  --ads-color-illustration-strong-400: var(--ads-color-neutral-gray-600);
+  --ads-color-illustration-sub-300: var(--ads-color-neutral-gray-700);
+  --ads-color-illustration-soft-200: var(--ads-color-neutral-gray-800);
+  --ads-color-illustration-weak-100: var(--ads-color-neutral-gray-900);
+  --ads-color-illustration-white-0: var(--ads-color-neutral-gray-950);
 }
 
 :root[data-color-brand="purple"], [data-color-scope][data-color-brand="purple"] {
@@ -325,6 +344,7 @@
   --ads-color-primary-base: var(--ads-color-purple-500);
   --ads-color-primary-dark: var(--ads-color-purple-800);
   --ads-color-primary-darker: var(--ads-color-purple-700);
+  --ads-color-primary-alpha-24: var(--ads-color-alpha-purple-alpha-24);
 }
 
 :root[data-color-brand="orange"], [data-color-scope][data-color-brand="orange"] {
@@ -333,6 +353,7 @@
   --ads-color-primary-base: var(--ads-color-orange-500);
   --ads-color-primary-dark: var(--ads-color-orange-800);
   --ads-color-primary-darker: var(--ads-color-orange-700);
+  --ads-color-primary-alpha-24: var(--ads-color-alpha-orange-alpha-24);
 }
 
 :root[data-color-brand="sky"], [data-color-scope][data-color-brand="sky"] {
@@ -341,6 +362,7 @@
   --ads-color-primary-base: var(--ads-color-sky-600);
   --ads-color-primary-dark: var(--ads-color-sky-800);
   --ads-color-primary-darker: var(--ads-color-sky-700);
+  --ads-color-primary-alpha-24: var(--ads-color-alpha-sky-alpha-24);
 }
 
 :root[data-color-neutral="slate"], [data-color-scope][data-color-neutral="slate"] {
@@ -354,5 +376,6 @@
   --ads-color-reference-neutral-600: var(--ads-color-neutral-slate-600);
   --ads-color-reference-neutral-700: var(--ads-color-neutral-slate-700);
   --ads-color-reference-neutral-800: var(--ads-color-neutral-slate-800);
+  --ads-color-reference-neutral-900: var(--ads-color-neutral-slate-900);
   --ads-color-reference-neutral-950: var(--ads-color-neutral-slate-950);
 }

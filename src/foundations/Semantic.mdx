@@ -1,12 +1,24 @@
-import { Meta } from '@storybook/addon-docs/blocks'
-import { SemanticInventory } from './ColorDocs'
+import { Meta, Story } from '@storybook/addon-docs/blocks'
+import * as ColorStories from './Color.stories'
 
-<Meta title="Foundations/Colors/Semantic" />
+<Meta of={ColorStories} name="Docs" />
 
 # Semantic colors
 
-Use a semantic custom property for the purpose the color serves. For example, set `color: var(--ads-color-text-strong-950)` for high emphasis text. See the repository README for token sources, mode attributes, and regeneration.
+Choose a semantic token for the role a color serves. The Figma palette headings use `text/strong-950` on `bg/white-0` and `text/sub-600` for supporting copy on that same surface. Choose primary tokens for brand accents and state tokens for status. Translucent colors retain the Figma opacity, so their appearance and contrast depend on the surface underneath.
 
-In Tailwind, use `text-ads-text-strong-950` for the same color or `bg-ads-bg-white-0` for the main surface. The preview below uses these classes and updates as you switch Figma modes.
+[Token System overview in Figma](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Align-UI-%E2%9C%A6-Design-System--1.1---Copy-?node-id=2645-344) · [Color guidelines in Figma](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Align-UI-%E2%9C%A6-Design-System--1.1---Copy-?node-id=2675-1856)
 
-<SemanticInventory />
+Use the theme attributes on `<html>` to set the product theme. Add `data-color-scope` and the same attributes to a container for a local theme. The demo uses this scoped API and the same Tailwind utilities that product components consume.
+
+```html
+<article data-color-scope data-color-mode="dark" data-color-brand="purple"
+  data-color-neutral="slate" class="bg-ads-bg-white-0 text-ads-text-strong-950">
+  <h2>Account settings</h2>
+  <p class="text-ads-text-sub-600">Manage your profile and preferences.</p>
+</article>
+```
+
+Use `var(--ads-color-bg-white-0)` and `var(--ads-color-text-strong-950)` for the same pairing in plain CSS.
+
+<Story of={ColorStories.ThemeAndContrast} />
