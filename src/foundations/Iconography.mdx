@@ -1,0 +1,46 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks'
+import * as IconStories from './Iconography.stories'
+
+<Meta of={IconStories} name="Docs" />
+
+# Iconography
+
+Use the line variant for the default interface treatment, following the Figma guidelines. Fill variants provide a solid alternative. Match an icon to its action and keep the same visual treatment within a control group.
+
+[Figma icon overview](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2716-25504) · [Figma icon guidelines](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2743-251)
+
+## Usage
+
+Import `Icon` from `src/icons`. The `name` prop accepts the exact Figma component name, including its `-line` or `-fill` suffix. All 3,057 components have a 24 × 24 Figma canvas. Set `size={20}` for the existing Button slots or `size={16}` for the LinkButton slots. The SVGs keep their original `viewBox="0 0 24 24"`.
+
+```tsx
+import { Icon } from './icons'
+import { Button } from './components/Button/Button'
+
+<p><Icon name="information-line" size={20} /> Changes save automatically.</p>
+<Button aria-label="Copy link">
+  <Icon name="file-copy-line" size={20} />
+</Button>
+```
+
+Icons are decorative by default. Name an icon-only action on its button using `aria-label`. For a standalone icon that conveys information, provide `label="Upload complete"` to expose an image role and accessible name. Choose label text for its meaning in context.
+
+<Story of={IconStories.Usage} />
+
+## Color and assets
+
+All shipped icons support configurable color through `currentColor`. Set the surrounding text color or pass `style={{ color: 'var(--ads-color-icon-sub-600)' }}`. The implementation uses the repository's SVG mask approach. It preserves the source silhouette and transparency and lets icons inherit their button's color in every state.
+
+Both line and fill variants use filled vector paths. Their source SVGs retain those paths and any stroke declarations. Adjust color and size through the public API.
+
+The catalog contains 3,020 exact-name SVGs from Remix Icon 4.9.1 and 37 original Figma SVG exports for names absent from that package. The gallery preserves the Figma names and categories. Each item links to its source component. The package version supplies the upstream geometry for exact-name matches, so a visual edit made only in Figma may differ from the upstream asset.
+
+All 3,057 assets were retrieved. The Figma-only entries include the `select-box` family, `verified`, `fm`, `aspect`, and the exact name `dice-1-line 1`. The asset catalog records the source of every entry.
+
+This project uses icons from Remix Icon, licensed under the Remix Icon License v1.0. The complete license ships with the assets in `src/icons/LICENSE.txt`. [Remix Icon](https://remixicon.com/) · [Upstream source](https://github.com/Remix-Design/RemixIcon)
+
+## Gallery
+
+Search by the original name, select a category or variant, and compare the supported sizes. Pagination keeps the gallery responsive.
+
+<Story of={IconStories.IconGallery} />

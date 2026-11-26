@@ -1,0 +1,34 @@
+.iconography-docs__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.iconography-docs__controls label { display: grid; gap: 0.25rem; }
+.iconography-docs__controls :is(input, select),
+.iconography-docs__pagination button { font: inherit; padding: 0.375rem; }
+.iconography-docs .iconography-docs__gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 11rem), 1fr));
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+.iconography-docs .iconography-docs__gallery li {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0.75rem;
+  border: 1px solid var(--ads-color-stroke-soft-200);
+  border-radius: 0.375rem;
+  color: var(--ads-color-icon-strong-950);
+  background: var(--ads-color-bg-white-0);
+}
+.iconography-docs__gallery code { overflow-wrap: anywhere; }
+.iconography-docs__gallery small { color: var(--ads-color-text-sub-600); }
+.iconography-docs__pagination,
+.iconography-docs__examples,
+.iconography-docs__sizes { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.iconography-docs__examples { padding: 1rem; }
+.iconography-docs__examples p { margin: 0; }

@@ -35,6 +35,12 @@ Use the shared role classes for text, such as `ads-type-title-h4`, `ads-type-lab
 
 The source is `tokens/typography.tokens.json`. Run `npm run tokens:build` after updating the verified Figma styles. Storybook documents the type scale, font fallbacks, and usage under **Foundations → Typography**. [Figma Typography overview](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2697-307).
 
+## Iconography foundations
+
+Import `Icon` and `IconName` from `src/icons`. The library ships 3,057 original SVG assets with the exact Figma component names. Use `<Icon name="home-2-line" size={24} />`, or sizes 20 and 16 for the existing button slots. Icons inherit `currentColor` and are decorative by default. Put the accessible action name on an icon-only button.
+
+Storybook includes the searchable gallery and examples under **Foundations → Iconography**. Asset provenance lives in `src/icons/catalog.generated.ts` and the Remix Icon license accompanies the SVGs. [Figma icon overview](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2716-25504).
+
 ## Tailwind in components
 
 The Vite app and Storybook use Tailwind CSS 4 without its global Preflight reset. Use generated semantic utilities like `bg-ads-bg-white-0`, `text-ads-text-strong-950`, and `border-ads-stroke-sub-300`. They follow the existing Figma mode attributes. The generated Tailwind theme uses the existing CSS variables as its source.
