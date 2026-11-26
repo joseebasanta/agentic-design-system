@@ -1,0 +1,35 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks'
+import * as TypographyStories from './Typography.stories'
+
+<Meta of={TypographyStories} name="Docs" />
+
+# Typography
+
+Use Inter Display Medium for titles, Inter Medium for labels and uppercase subheadings, and Inter Regular for paragraphs. The Docs styles use the same Inter faces with extra space between lines.
+
+[Figma Typography overview](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2697-307) · [Figma Typography guidelines](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2708-673)
+
+## Visual roles and HTML
+
+Choose a heading element from the page outline, then apply the visual style its layout needs. An `h2` can use the H4 title style in a compact section. Use a paragraph for prose, associate a `label` with its form control, and put button text inside its native `button`. A subheading can be a heading when it introduces a section or a paragraph when it serves as a short label above a heading.
+
+```html
+<h2 class="ads-type-title-h4">Notification settings</h2>
+<p class="ads-type-paragraph-md">Choose where we send workspace updates.</p>
+<label class="ads-type-label-sm" for="email">Email address</label>
+<input id="email" class="ads-type-paragraph-sm" type="email" />
+```
+
+<Story of={TypographyStories.InContext} />
+
+## Sizes and fonts
+
+The overview defines fixed styles across viewport sizes. Use the appropriate role size in each layout. Sizes and line heights use `rem` and can scale with the root font size. The values below assume a 16 px root. Figma’s percentage letter spacing becomes `em`, so it scales with the specimen.
+
+The product and these specimens load self-hosted WOFF2 files. Inter uses Regular 400 and Medium 500 from version 3.19. Titles use Inter Display Medium 500 from release 4.1. During `font-display: swap`, or whenever a face or glyph is unavailable, titles can fall back to Inter and then the system sans-serif stack. Inter roles fall back to the system stack.
+
+Figma enables the OpenType feature `ss11` on the specimens. The shipped font files lack that feature, so browsers ignore it. The Docs styles also request `cv09`, which the Inter files support.
+
+## Specimens
+
+<Story of={TypographyStories.Specimens} />

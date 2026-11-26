@@ -1,0 +1,74 @@
+.typography-docs__group { margin: 0 0 2rem; }
+.typography-docs__group > h2 { margin: 0 0 0.25rem; }
+.typography-docs__group > p { margin: 0 0 1rem; }
+
+.typography-docs .typography-docs__list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.typography-docs .typography-docs__item {
+  min-width: 0;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--ads-color-stroke-soft-200);
+  border-radius: 0.5rem;
+  background: var(--ads-color-bg-white-0);
+  color: var(--ads-color-text-strong-950);
+}
+
+.typography-docs__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+}
+
+.typography-docs__meta h3 {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.typography-docs__meta a { color: inherit; }
+.typography-docs__meta code { overflow-wrap: anywhere; }
+.typography-docs .typography-docs__specimen {
+  margin: 1rem 0;
+  overflow-wrap: anywhere;
+}
+
+.typography-docs__metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.125rem;
+  margin: 0;
+  font-size: 0.8125rem;
+}
+
+.typography-docs__metrics dt,
+.typography-docs .typography-docs__usage { color: var(--ads-color-text-sub-600); }
+.typography-docs__metrics dd { margin: 0; }
+.typography-docs .typography-docs__usage { margin: 0.625rem 0 0; }
+
+.typography-docs__context {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 34rem;
+  margin-inline: auto;
+  padding: 1.25rem;
+}
+
+.typography-docs__context :is(p, h2) { margin: 0; }
+.typography-docs__context label { margin-top: 0.5rem; }
+
+.typography-docs__context input {
+  min-width: 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--ads-color-stroke-strong-950);
+  border-radius: 0.375rem;
+  color: inherit;
+  background: inherit;
+}

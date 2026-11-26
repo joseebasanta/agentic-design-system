@@ -1,0 +1,283 @@
+{
+  "figma": {
+    "overview": "https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2697-307",
+    "guidelines": "https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2708-673"
+  },
+  "specimenFeatures": {
+    "ss11": true,
+    "liga": false,
+    "calt": false
+  },
+  "styles": [
+    {
+      "name": "Title/H1 Title",
+      "id": "S:77ccf56a2e9613d2b97e4de12f72d6d8833bfa85,",
+      "node": "2697:315",
+      "cssClass": "ads-type-title-h1",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 56,
+      "lineHeight": 64,
+      "letterSpacingPercent": -1,
+      "textTransform": "none"
+    },
+    {
+      "name": "Title/H2 Title",
+      "id": "S:fd834b33343291c31509b5c7820c3311a9fe8d64,",
+      "node": "2699:630",
+      "cssClass": "ads-type-title-h2",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 48,
+      "lineHeight": 56,
+      "letterSpacingPercent": -1,
+      "textTransform": "none"
+    },
+    {
+      "name": "Title/H3 Title",
+      "id": "S:ce3ae2c80528117d252c64647c9967e44e076fcc,",
+      "node": "2701:109",
+      "cssClass": "ads-type-title-h3",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 40,
+      "lineHeight": 48,
+      "letterSpacingPercent": -1,
+      "textTransform": "none"
+    },
+    {
+      "name": "Title/H4 Title",
+      "id": "S:a9493bd8d68321693092aac8e21cb14d248a7a40,",
+      "node": "2701:122",
+      "cssClass": "ads-type-title-h4",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 32,
+      "lineHeight": 40,
+      "letterSpacingPercent": -0.5,
+      "textTransform": "none"
+    },
+    {
+      "name": "Title/H5 Title",
+      "id": "S:3f17de0a10325da22608b395d9ff52691bd0d621,",
+      "node": "2701:135",
+      "cssClass": "ads-type-title-h5",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacingPercent": 0,
+      "textTransform": "none"
+    },
+    {
+      "name": "Title/H6 Title",
+      "id": "S:5173192a514efcf98480eff5f62b8decdd2e2dde,",
+      "node": "2701:148",
+      "cssClass": "ads-type-title-h6",
+      "fontFamily": "Inter Display",
+      "fontWeight": 500,
+      "fontSize": 20,
+      "lineHeight": 28,
+      "letterSpacingPercent": 0,
+      "textTransform": "none"
+    },
+    {
+      "name": "Label/X Large",
+      "id": "S:f066c18e834e0d9ec9d3bc5fe324fe5b6efe9375,",
+      "node": "2701:163",
+      "cssClass": "ads-type-label-xl",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none"
+    },
+    {
+      "name": "Label/Large",
+      "id": "S:58cd0fb5451cc0eb9c2daa228d431292801d4472,",
+      "node": "2701:176",
+      "cssClass": "ads-type-label-lg",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeight": 24,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none"
+    },
+    {
+      "name": "Label/Medium",
+      "id": "S:14310347c96350fb1ff51936944c7a2a6f13609c,",
+      "node": "2701:189",
+      "cssClass": "ads-type-label-md",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacingPercent": -1.1,
+      "textTransform": "none"
+    },
+    {
+      "name": "Label/Small",
+      "id": "S:cccefccdd541ec75bdd1ec8b125bb65b925f54b2,",
+      "node": "2701:203",
+      "cssClass": "ads-type-label-sm",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": 20,
+      "letterSpacingPercent": -0.6,
+      "textTransform": "none"
+    },
+    {
+      "name": "Label/X Small",
+      "id": "S:56e3645d211d647c84efb6e88504a51c741a1e8a,",
+      "node": "2701:216",
+      "cssClass": "ads-type-label-xs",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacingPercent": 0,
+      "textTransform": "none"
+    },
+    {
+      "name": "Paragraph/X Large",
+      "id": "S:2b4d49db1c66484d5cda7033265d7acf6d34d4f0,",
+      "node": "2701:230",
+      "cssClass": "ads-type-paragraph-xl",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none"
+    },
+    {
+      "name": "Paragraph/Large",
+      "id": "S:d89bed9210f2334befb0d2e435456118944caf3b,",
+      "node": "2701:243",
+      "cssClass": "ads-type-paragraph-lg",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 24,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none"
+    },
+    {
+      "name": "Paragraph/Medium",
+      "id": "S:607894a7f0ebe03821d404e48ec70a75f2dd6d90,",
+      "node": "2701:256",
+      "cssClass": "ads-type-paragraph-md",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacingPercent": -1.1,
+      "textTransform": "none"
+    },
+    {
+      "name": "Paragraph/Small",
+      "id": "S:dfea68212913b70cfe733dbdab6fd217adad44ca,",
+      "node": "2701:269",
+      "cssClass": "ads-type-paragraph-sm",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 20,
+      "letterSpacingPercent": -0.6,
+      "textTransform": "none"
+    },
+    {
+      "name": "Paragraph/X Small",
+      "id": "S:54ddcfb1d001a18f3371cce8c38c8b28eff08d30,",
+      "node": "2701:282",
+      "cssClass": "ads-type-paragraph-xs",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacingPercent": 0,
+      "textTransform": "none"
+    },
+    {
+      "name": "Subheading/Medium",
+      "id": "S:720d1cbccfab94d1824f3413ddf07ce145970247,",
+      "node": "2701:592",
+      "cssClass": "ads-type-subheading-md",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacingPercent": 6,
+      "textTransform": "uppercase"
+    },
+    {
+      "name": "Subheading/Small",
+      "id": "S:168b0b4ae3678af67a2db9011b61aff814ee155f,",
+      "node": "2701:605",
+      "cssClass": "ads-type-subheading-sm",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": 20,
+      "letterSpacingPercent": 6,
+      "textTransform": "uppercase"
+    },
+    {
+      "name": "Subheading/X Small",
+      "id": "S:c7d78d5c3cb07b1da52eef6791bfaabc5b8990f7,",
+      "node": "2701:618",
+      "cssClass": "ads-type-subheading-xs",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacingPercent": 4,
+      "textTransform": "uppercase"
+    },
+    {
+      "name": "Subheading/2X Small",
+      "id": "S:5d1caf391e3fe02b6e575a5b383e484a583fba6b,",
+      "node": "2701:631",
+      "cssClass": "ads-type-subheading-2xs",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 11,
+      "lineHeight": 12,
+      "letterSpacingPercent": 2,
+      "textTransform": "uppercase"
+    },
+    {
+      "name": "Docs/Label",
+      "id": "S:998df8970b10156901165009cc1ef0d454d06f07,",
+      "node": "2708:645",
+      "cssClass": "ads-type-docs-label",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeight": 32,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none",
+      "specimenFeatures": {
+        "cv09": true
+      }
+    },
+    {
+      "name": "Docs/Paragraph",
+      "id": "S:fc390c94d281ca4f3f826190cdae2d0ac15e5209,",
+      "node": "2708:660",
+      "cssClass": "ads-type-docs-paragraph",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 32,
+      "letterSpacingPercent": -1.5,
+      "textTransform": "none",
+      "specimenFeatures": {
+        "cv09": true
+      }
+    }
+  ]
+}

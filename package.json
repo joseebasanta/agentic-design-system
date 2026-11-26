@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "tokens:build": "node scripts/build-color-tokens.mjs",
-    "tokens:check": "node scripts/build-color-tokens.mjs --check",
+    "tokens:build": "node scripts/build-color-tokens.mjs && node scripts/build-typography-tokens.mjs",
+    "tokens:check": "node scripts/build-color-tokens.mjs --check && node scripts/build-typography-tokens.mjs --check",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",

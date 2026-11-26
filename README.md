@@ -29,6 +29,12 @@ The canonical source is `tokens/colors.tokens.json`, using [DTCG 2025.10 sRGB co
 
 For a Figma update, read the variable collections and every mode, match tokens by Figma variable ID, and update the source values or references. Preserve the sRGB channels and alpha from the variables and compare swatch labels and fills separately. Record any discrepancies in the source extension. Run `npm run tokens:build` to update `src/tokens/colors.css`, `src/tokens/colors.generated.ts`, and `src/tokens/colors.tailwind.css`. Review the generated diff and run `npm run tokens:check` before rebuilding Storybook.
 
+## Typography foundations
+
+Use the shared role classes for text, such as `ads-type-title-h4`, `ads-type-label-sm`, and `ads-type-paragraph-md`. Choose the HTML element for its role in the document. The app and Storybook load the same generated typography CSS and self-hosted Inter fonts through `src/index.css`.
+
+The source is `tokens/typography.tokens.json`. Run `npm run tokens:build` after updating the verified Figma styles. Storybook documents the type scale, font fallbacks, and usage under **Foundations → Typography**. [Figma Typography overview](https://www.figma.com/design/jc3iyvFl45ESgrCMzprckl/Agentic-Design-System--1.1-?node-id=2697-307).
+
 ## Tailwind in components
 
 The Vite app and Storybook use Tailwind CSS 4 without its global Preflight reset. Use generated semantic utilities like `bg-ads-bg-white-0`, `text-ads-text-strong-950`, and `border-ads-stroke-sub-300`. They follow the existing Figma mode attributes. The generated Tailwind theme uses the existing CSS variables as its source.
@@ -45,5 +51,5 @@ Use Tailwind's custom property syntax for values scoped to a component. For exam
 | `npm run dev` | Run the small Vite landing page |
 | `npm run build` | Typecheck and build the Vite page |
 | `npm run lint` | Run Oxlint |
-| `npm run tokens:build` | Regenerate CSS, TypeScript, and Tailwind color tokens |
-| `npm run tokens:check` | Validate all modes and verify generated files are current |
+| `npm run tokens:build` | Regenerate color tokens and typography role classes |
+| `npm run tokens:check` | Validate color modes and typography styles, and check generated files |

@@ -1,0 +1,243 @@
+/* Generated from tokens/typography.tokens.json. Run npm run tokens:build. */
+
+.ads-type-title-h1 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.ads-type-title-h2 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.ads-type-title-h3 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.ads-type-title-h4 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.005em;
+  text-transform: none;
+}
+
+.ads-type-title-h5 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-transform: none;
+}
+
+.ads-type-title-h6 {
+  font-family: var(--ads-font-inter-display);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  text-transform: none;
+}
+
+.ads-type-label-xl {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.ads-type-label-lg {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.ads-type-label-md {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.011em;
+  text-transform: none;
+}
+
+.ads-type-label-sm {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.006em;
+  text-transform: none;
+}
+
+.ads-type-label-xs {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-transform: none;
+}
+
+.ads-type-paragraph-xl {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.ads-type-paragraph-lg {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.ads-type-paragraph-md {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.011em;
+  text-transform: none;
+}
+
+.ads-type-paragraph-sm {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.006em;
+  text-transform: none;
+}
+
+.ads-type-paragraph-xs {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-transform: none;
+}
+
+.ads-type-subheading-md {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ads-type-subheading-sm {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ads-type-subheading-xs {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ads-type-subheading-2xs {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6875rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.ads-type-docs-label {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0, 'cv09' 1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.ads-type-docs-paragraph {
+  font-family: var(--ads-font-inter);
+  font-feature-settings: 'ss11' 1, 'liga' 0, 'calt' 0, 'cv09' 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}

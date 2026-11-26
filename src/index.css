@@ -3,6 +3,8 @@
 @import 'tailwindcss/utilities.css' layer(utilities) source('./');
 @import './tokens/colors.css';
 @import './tokens/colors.tailwind.css';
+@import './fonts/typography.css';
+@import './tokens/typography.css';
 
 :root {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
